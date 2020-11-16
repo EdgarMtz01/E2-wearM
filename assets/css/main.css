@@ -1,0 +1,11 @@
+header{
+	background-color: #66D7D1;
+}
+
+nav{
+	background-color:  #F4F188;
+}
+
+.carousel-control-prev-icon,.carousel-control-next-icon{
+	filter: invert(100%);
+}
