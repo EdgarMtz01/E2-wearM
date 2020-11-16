@@ -11,10 +11,6 @@ nav{
 	filter: invert(100%);
 }
 
-input[type="text"]{
-	width: 400px;
-}
-
 #lupa{
 	width: 20px;
 	height: 20px;
