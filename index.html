@@ -10,29 +10,34 @@
 	<script type="text/javascript" src="assets/js/popper.min.js"></script>
 	<script type="text/javascript" src="assets/js/jquery.min.js"></script>
 	<script type="text/javascript" src="assets/js/bootstrap.min.js"></script>
+
 </head>
 <body>
 	<!-- Inicia header -->
 	<header class="container-fluid">
-		<div class="row">
+		<div class="row align-items-center">
+
 			<!-- Logo -->
-			<div class="col-lg-2 col-md-3 col-sm-3 col-2">
-			
+			<div class="col-lg-3 col-md-3 col-sm-3 col-3">
+				<img src="assets/images/logo.png" id="logo">
 		    </div>
+
 		    <!-- Barra de búsqueda -->
-		    <div class="col-lg-8 col-md-6 col-sm-6 col-8">
-			    <form class="form-inline" action="#">
+		    <div class="col-lg-6 col-md-6 col-sm-6 col-6">
+                <form class="md-form form-sm form-1 pl-0" action="#">
                     <div class="input-group">
-                        <div class="input-group-prepend">
-                	        <button type="submit"></button>
-                        </div>
-                        <input type="text" class="form-control" placeholder="Search">
+                        <span class="input-group-prepend">
+                        <button type="submit"><img src="assets/images/lupa.png" id="lupa"></button>
+                        </span>
+                        <input class="form-control my-0 py-1" type="text" placeholder="Buscar" aria-label="Search">
                     </div>
                 </form>
 		    </div>
+
 		    <!-- Iconos -->
-		    <div class="col-lg-2 col-md-3 col-sm-3 col-2">
-			
+		    <div class=" col-lg-3 col-md-3 col-sm-3 col-3 d-flex justify-content-center">
+                <a href="#"><img src="assets/images/carrito.png" class="header_iconos"></a>
+                <a href="#"><img src="assets/images/usuario.png" class="header_iconos"></a>	
 		    </div>
 		</div>
 	</header>
@@ -87,6 +92,7 @@
     </nav>
     <!-- Termina barra de navegación-->
 
+    <!-- Inicia Seccion de ofertas-->
 	<section >
 		<div class="container-fluid text-center">
 			<h2>Ofertas</h2>
@@ -94,114 +100,109 @@
 
 		<div class="container-fluid">
 
-    <!--Carousel Wrapper-->
-    <div id="multi-item-example" class="carousel slide carousel-multi-item" data-ride="carousel">
+            <!--Inicia carrusel-->
+            <div id="multi-item-example" class="carousel slide carousel-multi-item" data-ride="carousel">
+                <a class="carousel-control-prev" href="#multi-item-example" data-slide="prev">
+        	       <span class="carousel-control-prev-icon"></span>
+                </a>
+                <a class="carousel-control-next" href="#multi-item-example" data-slide="next">
+        	       <span class="carousel-control-next-icon"></span>
+                </a>
 
-        <a class="carousel-control-prev" href="#multi-item-example" data-slide="prev">
-        	<span class="carousel-control-prev-icon"></span>
-        </a>
-        <a class="carousel-control-next" href="#multi-item-example" data-slide="next">
-        	<span class="carousel-control-next-icon"></span>
-        </a>
+                <!--Slides-->
+                <div class="carousel-inner" role="listbox">
 
-      <!--Slides-->
-      <div class="carousel-inner" role="listbox">
+                    <!--Primer slide-->
+                    <div class="carousel-item active">
+                        <div class="row justify-content-center">
 
-        <!--First slide-->
-        <div class="carousel-item active">
+                            <div class="col-lg-3 col-md-3 col-sm-5 col-8">
+                                <div class="card md-2">
+                                    <img class="card-img-top" src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(34).jpg" alt="Card image cap">
+                                    <div class="card-body">
+                                        <h4 class="card-title">Nombre</h4>
+                                        <p class="card-text">Precio</p>
+                                        <a class="btn btn-primary">Comprar ahora</a>
+                                    </div>
+                                </div>
+                            </div>
 
-          <div class="row justify-content-center">
-            <div class="col-lg-3 col-md-3 col-sm-5 col-8">
-              <div class="card md-2">
-                <img class="card-img-top" src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(34).jpg"
-                  alt="Card image cap">
-                <div class="card-body">
-                  <h4 class="card-title">Nombre</h4>
-                  <p class="card-text">Precio</p>
-                  <a class="btn btn-primary">Comprar ahora</a>
+                            <div class="col-md-3 col-sm-5 d-none d-sm-block">
+                                <div class="card md-2">
+                                    <img class="card-img-top" src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(18).jpg" alt="Card image cap">
+                                    <div class="card-body">
+                                        <h4 class="card-title">Nombre</h4>
+                                        <p class="card-text">Precio</p>
+                                        <a class="btn btn-primary">Comprar ahora</a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-md-3 d-none d-sm-none d-md-block">
+                                <div class="card md-2">
+                                    <img class="card-img-top" src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(35).jpg" alt="Card image cap">
+                                    <div class="card-body">
+                                        <h4 class="card-title">Nombre</h4>
+                                        <p class="card-text">Precio</p>
+                                        <a class="btn btn-primary">Comprar ahora</a>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <!-- Termina primer slide -->
+
+                    <!--Segundo slide-->
+                    <div class="carousel-item">
+
+                        <div class="row justify-content-center">
+                            <div class="col-md-3 col-sm-5 col-8">
+                                <div class="card mb-2">
+                                    <img class="card-img-top" src="https://mdbootstrap.com/img/Photos/Horizontal/City/4-col/img%20(60).jpg" alt="Card image cap">
+                                    <div class="card-body">
+                                        <h4 class="card-title">Nombre</h4>
+                                        <p class="card-text">Precio</p>
+                                        <a class="btn btn-primary">Comprar ahora</a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-md-3 col-sm-5 d-none d-sm-block">
+                                <div class="card mb-2">
+                                    <img class="card-img-top" src="https://mdbootstrap.com/img/Photos/Horizontal/City/4-col/img%20(47).jpg" alt="Card image cap">
+                                    <div class="card-body">
+                                        <h4 class="card-title">Nombre</h4>
+                                        <p class="card-text">Precio</p>
+                                        <a class="btn btn-primary">Comprar ahora</a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-md-3 d-none d-sm-none d-md-block">
+                                <div class="card mb-2">
+                                    <img class="card-img-top" src="https://mdbootstrap.com/img/Photos/Horizontal/City/4-col/img%20(48).jpg" alt="Card image cap">
+                                    <div class="card-body">
+                                        <h4 class="card-title">Nombre</h4>
+                                        <p class="card-text">Precio</p>
+                                        <a class="btn btn-primary">Comprar ahora</a>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <!-- Termina segundo slide -->
+
                 </div>
-              </div>
-            </div>
+                <!-- Terminan slides -->
 
-            <div class="col-md-3 col-sm-5 d-none d-sm-block">
-              <div class="card md-2">
-                <img class="card-img-top" src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(18).jpg"
-                  alt="Card image cap">
-                <div class="card-body">
-                  <h4 class="card-title">Nombre</h4>
-                  <p class="card-text">Precio</p>
-                  <a class="btn btn-primary">Comprar ahora</a>
-                </div>
-              </div>
             </div>
-
-            <div class="col-md-3 d-none d-sm-none d-md-block">
-              <div class="card md-2">
-                <img class="card-img-top" src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(35).jpg"
-                  alt="Card image cap">
-                <div class="card-body">
-                  <h4 class="card-title">Nombre</h4>
-                  <p class="card-text">Precio</p>
-                  <a class="btn btn-primary">Comprar ahora</a>
-                </div>
-              </div>
-            </div>
-          </div>
-
+            <!-- Termina carrusel-->
         </div>
-        <!--/.First slide-->
-
-        <!--Second slide-->
-        <div class="carousel-item">
-
-          <div class="row justify-content-center">
-            <div class="col-md-3 col-sm-5 col-8">
-              <div class="card mb-2">
-                <img class="card-img-top" src="https://mdbootstrap.com/img/Photos/Horizontal/City/4-col/img%20(60).jpg"
-                  alt="Card image cap">
-                <div class="card-body">
-                  <h4 class="card-title">Nombre</h4>
-                  <p class="card-text">Precio</p>
-                  <a class="btn btn-primary">Comprar ahora</a>
-                </div>
-              </div>
-            </div>
-
-            <div class="col-md-3 col-sm-5 d-none d-sm-block">
-              <div class="card mb-2">
-                <img class="card-img-top" src="https://mdbootstrap.com/img/Photos/Horizontal/City/4-col/img%20(47).jpg"
-                  alt="Card image cap">
-                <div class="card-body">
-                  <h4 class="card-title">Nombre</h4>
-                  <p class="card-text">Precio</p>
-                  <a class="btn btn-primary">Comprar ahora</a>
-                </div>
-              </div>
-            </div>
-
-            <div class="col-md-3 d-none d-sm-none d-md-block">
-              <div class="card mb-2">
-                <img class="card-img-top" src="https://mdbootstrap.com/img/Photos/Horizontal/City/4-col/img%20(48).jpg"
-                  alt="Card image cap">
-                <div class="card-body">
-                  <h4 class="card-title">Nombre</h4>
-                  <p class="card-text">Precio</p>
-                  <a class="btn btn-primary">Comprar ahora</a>
-                </div>
-              </div>
-            </div>
-          </div>
-
-        </div>
-        <!--/.Second slide-->
-
-      </div>
-      <!--/.Slides-->
-
-    </div>
-    <!--/.Carousel Wrapper-->
-  </div>
 	</section>
+    <!-- Termina sección de ofertas -->
+
 	<footer></footer>
 </body>
 </html>
