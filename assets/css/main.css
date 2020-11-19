@@ -26,6 +26,10 @@ nav{
 	height: 40px;
 }
 
+#elementos_barra{
+	background-color: #66D7D1;
+}
+
 @media(max-width: 500px){
 	#logo{
 		width: 80px;
@@ -38,7 +42,7 @@ nav{
 	}
 }
 
-button{
+.boton{
 	border: none;
 	background-color: #F4F188;
 }
