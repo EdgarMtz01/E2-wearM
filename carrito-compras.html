@@ -91,16 +91,16 @@
             <h1 class="text-danger">Articulos</h1>
         </div>
         <!--Inicia tabla de productos-->
-        <div class="container-fluid">
+        <div class="container-fluid text-center">
             <table class="table">
                 <thead class="thead-dark">
                     <tr>
-                        <th scope="col"></th>
-                        <th scope="col"></th>
-                        <th scope="col">Agregados recientemente</th>
-                        <th scope="col"></th>
-                        <th scope="col"></th>
+                        <th scope="row">Agregados recientemente</th>
                     </tr>
+                </thead>
+            </table>
+            <table class="table">
+                <thead class="thead-dark">
                     <tr>
                         <th scope="col">Nombre</th>
                         <th scope="col">Talla</th>
@@ -143,26 +143,17 @@
                 </thead>
             </table>
         </div>
+ 
         <div class="container">
-            <div class="row justify-content-md-center">
-                <div class="col">
-                    <h6 class="text-center">Total a pagar</h6>
-                </div>
-                <div class="col col-lg-2 ">
-                    <h6 class="text-center">789.56</h6>
+            <div class="row mt-4">
+                <div class="col-12">
+                    <div class="form-group float-right mr-4">
+                        <label for="total" >Total: $</label>
+                        <input type="text" disabled value="00.00" oncopy="return false;" id="total">
+                    </div>
                 </div>
             </div>
-        </div>
-        <div class="container">
-            <div class="row justify-content-md-center">
-                <div class="col-8">
-                </div>
-                <div class="col-2">
-                </div>
-                <div class="col-2">
-                    <button type="button" class="btn btn-info">Pagar</button>
-                </div>
-            </div>
+            <button type="submit" class="btn btn-primary float-right mr-4">Confirmar</button>
         </div>
     </div>
 </body>
