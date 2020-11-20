@@ -25,11 +25,11 @@
                 Vendedor
             </div>
             <div class="list-group list-group-flush">
-                <a href="#" class="list-group-item list-group-item-action" id="elementos_barra">
+                <a href="index.html" class="list-group-item list-group-item-action" id="elementos_barra">
                     <i class="fa fa-home fa-lg mr-3" aria-hidden="true"></i>Inicio</a>
-                <a href="admi_productos.html" class="list-group-item list-group-item-action" id="elementos_barra">
+                <a href="vendedor-productos.html" class="list-group-item list-group-item-action" id="elementos_barra">
                     <i class="fa fa-archive mr-3" aria-hidden="true"></i>Productos</a>
-                <a href="admi_ventas.html" class="list-group-item list-group-item-action" id="elementos_barra">
+                <a href="vendedor-ventas.html" class="list-group-item list-group-item-action" id="elementos_barra">
                     <i class="fa fa-tags mr-3" aria-hidden="true"></i>Ventas</a>
             </div>
         </div>
@@ -59,7 +59,6 @@
                             <th>Talla</th>
                             <th>Cantidad</th>
                             <th>Precio</th>
-                            <th></th>
                         </tr>
                     </thead>
                     <tbody id="myTable">
@@ -98,6 +97,13 @@
             </div>
         </div>
         <!--/Termina contenido de la página  -->
+        <!-- Ocultar menu lateral -->
+        <script type="text/javascript">
+        $("#menu-toggle").click(function(e) {
+            e.preventDefault();
+            $("#wrapper").toggleClass("toggled");
+        });
+        </script>
 </body>
 
 </html>
