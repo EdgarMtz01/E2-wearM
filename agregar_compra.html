@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>wearM</title>
+
+	<link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/main.css">
+	<link href="assets/css/simple-sidebar.css" rel="stylesheet">
+	<script type="text/javascript" src="assets/js/popper.min.js"></script>
+	<script type="text/javascript" src="assets/js/jquery.min.js"></script>
+	<script type="text/javascript" src="assets/js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="assets/js/bootstrap.bundle.min.js"></script>
+	<script type="text/javascript" src="assets/js/main.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+  	<div class="d-flex" id="wrapper">
+
+    	<!-- Barra lateral -->
+    	<div class="border-right" id="sidebar-wrapper">
+      		<div class="sidebar-heading ">                   
+                <img src="assets/images/usuario.jpg" class="rounded-circle img-fluid" alt="usuario" width="50px">
+                Administrador  
+            </div>
+
+            <div class="list-group list-group-flush">
+                <a href="#" class="list-group-item list-group-item-action" id="elementos_barra">
+                    <i class="fa fa-home fa-lg mr-3" aria-hidden="true"></i>Inicio</a>       
+                <a href="admi_productos.html" class="list-group-item list-group-item-action" id="elementos_barra">
+                    <i class="fa fa-archive mr-3" aria-hidden="true"></i>Productos</a>
+                <a href="admi_compras.html" class="list-group-item list-group-item-action" id="elementos_barra">
+                    <i class="fa fa-truck mr-3" aria-hidden="true"></i>Compras</a>
+                <a href="admi_ventas.html" class="list-group-item list-group-item-action" id="elementos_barra">
+                    <i class="fa fa-tags mr-3" aria-hidden="true"></i>Ventas</a>
+            </div>
+    	</div>
+    	<!--/Termina barra lateral -->
+
+    	<!-- Contenido de la pagina -->
+    	<div id="page-content-wrapper">
+
+            <!-- Barra de navegación superior -->
+      		<nav class="navbar navbar-expand-lg navbar-light border-bottom">
+        		<button class="navbar-toggler-icon boton" id="menu-toggle"></button>
+        		<h5 class="ml-4 mb-0 text-dark">Agregar compra</h5>
+      		</nav>
+
+        	<div class="container-fluid table-responsive mt-5">
+        		<div class="row justify-content-center">
+                    <div class="col-lg-5 col-md-3 col-sm-8 col-10">
+                        <div class="form-group d-flex d-inline-block align-items-center">
+                            <label for="numero" class="mb-0 ml-3">No.</label>
+                            <input type="text" class="form-control ml-3 input-sm" id="numero">
+                        </div>     
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-8 col-10">
+                        <div class="form-group d-flex d-inline-block align-items-center">
+                            <label for="fecha" class="mb-0">Fecha</label>
+                            <input type="date" class="form-control ml-3" id="fecha">
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-sm-6 col-8 ml-auto">
+                        <a href="#" class="btn btn-success float-right mr-4">
+                            <i class="fa fa-plus-square fa-lg mr-2" aria-hidden="true"></i>Agregar
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Tabla de productos -->
+      	    	<table class="table table-bordered table-hover text-center mt-2">
+            		<thead>
+                		<tr>
+                    		<th>Código</th>
+                    		<th>Descripción</th>
+                    		<th>Precio</th>
+                    		<th>Total</th>
+                    		<th></th>
+                		</tr>
+            		</thead>
+           			<tbody id="myTable">
+                		<tr>
+                    		<td></td>
+                    		<td></td>
+	                    	<td></td>
+	                    	<td></td>
+	                    	<td>
+	                    		<div class="dropdown">
+  									<button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Acciones</button>
+  									<div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+    									<a class="dropdown-item" href="#">Editar</a>
+    									<a class="dropdown-item" href="#">Eliminar</a>
+  									</div>
+								</div>
+	                    	</td>
+
+                		</tr>
+                		<tr>
+                    		<td></td>
+                    		<td></td>
+	                    	<td></td>
+	                    	<td></td>	
+	                    	<td>
+	                    		<div class="dropdown">
+  									<button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Acciones</button>
+  									<div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+    									<a class="dropdown-item" href="#">Editar</a>
+    									<a class="dropdown-item" href="#">Eliminar</a>
+  									</div>
+								</div>
+	                    	</td>
+                		</tr>
+                		<tr>
+                    		<td></td>
+                    		<td></td>
+	                		<td></td>
+	                		<td></td>
+	                		<td>
+	                			<div class="dropdown">
+  									<button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Acciones</button>
+  									<div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+    									<a class="dropdown-item" href="#">Editar</a>
+    									<a class="dropdown-item" href="#">Eliminar</a>
+  									</div>
+								</div>
+	                		</td>
+                		</tr>
+            		</tbody>
+        		</table>
+
+                <div class="row mt-4">
+                    <div class="col-12">
+                        <div class="form-group float-right mr-4">
+                            <label for="total">Total: $</label>
+                            <input type="text" disabled value="00.00" oncopy="return false;" id="total">
+                        </div>
+                    </div>
+                </div>
+                <button type="submit" class="btn btn-success float-right mr-4">Confirmar</button>
+      		</div>
+    	</div>
+    	<!--/Termina contenido de la página  -->
+	</div>
+
+    <!-- Ocultar menu lateral -->
+    <script type="text/javascript">
+      $("#menu-toggle").click(function(e) {
+      e.preventDefault();
+      $("#wrapper").toggleClass("toggled");
+      });
+    </script>
+
+</body>
+</html>
