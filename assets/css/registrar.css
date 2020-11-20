@@ -1,0 +1,40 @@
+.container{
+	margin-top: 45px;
+	width: 450px;
+	height: 550px;
+}
+
+.crear{
+	margin-left: 80px;
+	margin-bottom: 15px;
+}
+
+.nombre{
+	width: 380px;
+	margin-bottom: 10px;
+}
+
+.apellido{
+	width: 380px;
+	margin-bottom: 10px;
+}
+
+.correo{
+	width: 380px;
+	margin-bottom: 10px;
+}
+
+.password{
+	width: 380px;
+	margin-bottom: 10px;
+}
+
+.password1{
+	width: 380px;
+	margin-bottom: 10px;
+}
+
+.btn{
+	width: 380px;
+	margin-top: 30px;
+}
