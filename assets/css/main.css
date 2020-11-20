@@ -37,6 +37,17 @@ nav {
     height: 200px;
 }
 
+#title-product {
+    display: none;
+}
+
+#dropdown1 {
+    display: none;
+}
+
+#dropdown11 {
+    display: none;
+}
 
 @media(max-width: 500px) {
     #logo {
@@ -58,9 +69,32 @@ nav {
         display: none;
     }
 
-    .fecha-carrito{
-    	/*Pantalla productos-carrito*/
-    	display: none;
+    .fecha-carrito {
+        /*Pantalla productos-carrito*/
+        display: none;
+    }
+
+
+    #select-product {
+        display: none;
+    }
+
+    #carrito {
+        width: 70px;
+        height: 70px;
+    }
+
+    #lacoste1 {
+        width: 300px;
+        height: 200px;
+    }
+
+    #title-product {
+        display: inline;
+    }
+
+    #text-product2 {
+        display: none;
     }
 
 }
