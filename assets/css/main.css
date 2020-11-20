@@ -37,6 +37,14 @@ nav {
     height: 200px;
 }
 
+.botones_pago{
+	border: 1px solid;
+	border-color: gray;
+	width: 80%;
+	border-radius: 5px;
+    padding: 2px;
+}
+
 
 @media(max-width: 500px) {
     #logo {
