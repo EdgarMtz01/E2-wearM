@@ -37,6 +37,7 @@ nav {
     height: 200px;
 }
 
+
 @media(max-width: 500px) {
     #logo {
         width: 80px;
@@ -55,6 +56,11 @@ nav {
     #left-bar {
         /*Pantalla busqueda*/
         display: none;
+    }
+
+    .fecha-carrito{
+    	/*Pantalla productos-carrito*/
+    	display: none;
     }
 
 }
