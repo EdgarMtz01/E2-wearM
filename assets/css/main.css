@@ -37,6 +37,14 @@ nav {
     height: 200px;
 }
 
+.botones_pago{
+	border: 1px solid;
+	border-color: gray;
+	width: 80%;
+	border-radius: 5px;
+    padding: 2px;
+}
+
 #title-product {
     display: none;
 }
@@ -49,10 +57,13 @@ nav {
     display: none;
 }
 
+<<<<<<< HEAD
 #carousel_mov {
     display: none;
 }
 
+=======
+>>>>>>> 2aec103e847caa4a0194d6ef20dfed0a1cff5ba9
 
 @media(max-width: 500px) {
     #logo {
