@@ -49,6 +49,11 @@ nav {
     display: none;
 }
 
+#carousel_mov {
+    display: none;
+}
+
+
 @media(max-width: 500px) {
     #logo {
         width: 80px;
@@ -96,6 +101,15 @@ nav {
     #text-product2 {
         display: none;
     }
+
+    #carousel_desk {
+        display: none;
+    }
+
+    #carousel_mov {
+        display: inline;
+    }
+
 
 }
 
