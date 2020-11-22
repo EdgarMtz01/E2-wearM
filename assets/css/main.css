@@ -57,13 +57,11 @@ nav {
     display: none;
 }
 
-<<<<<<< HEAD
+
 #carousel_mov {
     display: none;
 }
 
-=======
->>>>>>> 2aec103e847caa4a0194d6ef20dfed0a1cff5ba9
 
 @media(max-width: 500px) {
     #logo {
