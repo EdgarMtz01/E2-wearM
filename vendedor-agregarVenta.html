@@ -42,21 +42,22 @@
                 <h5 class="ml-4 mb-0 text-dark">Agregar venta</h5>
             </nav>
             <div class="container-fluid table-responsive mt-5">
+                <form action="#" name="agregar_venta" method="POST" role= "form" onsubmit="return validacionAV();">
                 <div class="row justify-content-center">
                     <div class="col-lg-4 col-md-5 col-sm-8 col-10">
                         <div class="form-group d-flex d-inline-block align-items-center">
-                            <label for="numero" class="mb-0 ml-2 mr-3">Cliente</label>
-                            <select id="categoria" class="form-control">
-                                <option selected>cliente1</option>
+                            <label for="cliente_venta" class="mb-0 ml-2 mr-3">Cliente</label>
+                            <select id="cliente_venta" class="form-control">
+                                <option selected>Ninguna</option>
+                                <option>cliente1</option>
                                 <option>cliente2</option>
-                                <option>cliente3</option>
                             </select>
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-5 col-sm-8 col-10">
                         <div class="form-group d-flex d-inline-block align-items-center">
-                            <label for="fecha" class="mb-0">Fecha</label>
-                            <input type="date" class="form-control ml-3" id="fecha">
+                            <label for="fecha_venta" class="mb-0">Fecha</label>
+                            <input type="date" class="form-control ml-3" id="fecha_venta">
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-7 col-sm-8 col-8 ml-auto">
@@ -144,6 +145,7 @@
                     </div>
                 </div>
                 <button type="submit" class="btn btn-success float-right mr-4">Confirmar</button>
+            </form>
             </div>
         </div>
         <!--/Termina contenido de la página  -->
