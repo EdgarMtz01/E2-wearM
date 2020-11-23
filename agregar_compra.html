@@ -48,17 +48,18 @@
       		</nav>
 
         	<div class="container-fluid table-responsive mt-5">
+                <form action="#" name="agregar_compra" method="POST" role= "form" onsubmit="return validacionAC();">
         		<div class="row justify-content-center">
                     <div class="col-lg-5 col-md-3 col-sm-8 col-10">
                         <div class="form-group d-flex d-inline-block align-items-center">
                             <label for="numero" class="mb-0 ml-3">No.</label>
-                            <input type="text" class="form-control ml-3 input-sm" id="numero">
+                            <input type="text" class="form-control ml-3 input-sm" id="numero_compra">
                         </div>     
                     </div>
                     <div class="col-lg-4 col-md-4 col-sm-8 col-10">
                         <div class="form-group d-flex d-inline-block align-items-center">
                             <label for="fecha" class="mb-0">Fecha</label>
-                            <input type="date" class="form-control ml-3" id="fecha">
+                            <input type="date" class="form-control ml-3" id="fecha_compra">
                         </div>
                     </div>
                     <div class="col-lg-3 col-md-4 col-sm-6 col-8 ml-auto">
@@ -133,11 +134,12 @@
                     <div class="col-12">
                         <div class="form-group float-right mr-4">
                             <label for="total">Total: $</label>
-                            <input type="text" disabled value="00.00" oncopy="return false;" id="total">
+                            <input type="text" disabled value="00.00" oncopy="return false;" id="total_compra">
                         </div>
                     </div>
                 </div>
                 <button type="submit" class="btn btn-success float-right mr-4">Confirmar</button>
+            </form>
       		</div>
     	</div>
     	<!--/Termina contenido de la página  -->
