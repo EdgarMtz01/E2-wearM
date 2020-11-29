@@ -45,7 +45,7 @@
                     <!--Inicio Tarjeta 1-->
                     <div class="col-sm d-flex justify-content-center mb-3">
                         <div class="card" style="width: 18rem;">
-                            <img class="card-img-top" src="assets/images/flexi1.png" alt="Card image cap">
+                            <img class="card-img-top" src="<?php echo base_url(); ?>/assets/images/flexi1.png" alt="Card image cap">
                             <div class="card-body">
                                 <h5 class="card-title">Flexi</h5>
                                 <p class="card-text">50805-Botín Casual para Hombre</p>
@@ -58,7 +58,7 @@
                     <!--Inicio Tarjeta 2-->
                     <div class="col-sm d-flex justify-content-center mb-3">
                         <div class="card" style="width: 18rem;">
-                            <img class="card-img-top" src="assets/images/grad1.png" alt="Card image cap">
+                            <img class="card-img-top" src="<?php echo base_url(); ?>/assets/images/grad1.png" alt="Card image cap">
                             <div class="card-body">
                                 <h5 class="card-title">Lacoste</h5>
                                 <p class="card-text">Grad Vulc - Zapatillas de Deporte para Hombre</p>
@@ -72,7 +72,7 @@
                     <div class="col-sm">
                         <div class="container-fluid text-center d-flex justify-content-center mb-3">
                             <div class="card" style="width: 18rem;">
-                                <img class="card-img-top" src="assets/images/jsleap1.png" alt="Card image cap">
+                                <img class="card-img-top" src="<?php echo base_url(); ?>/assets/images/jsleap1.png" alt="Card image cap">
                                 <div class="card-body">
                                     <h5 class="card-title">JSLEAP</h5>
                                     <p class="card-text">Zapatillas de correr</p>

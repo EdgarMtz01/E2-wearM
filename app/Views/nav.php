@@ -6,38 +6,14 @@
         </button>
         <div class="collapse navbar-collapse justify-content-center" id="navbarTogglerDemo01">
             <ul class="navbar-nav">
-                <!--Menú desplegable ropa-->
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
-                        Ropa
-                    </a>
-                    <div class="dropdown-menu">
-                        <a class="dropdown-item" href="#">Hombre</a>
-                        <a class="dropdown-item" href="#">Mujer</a>
-                        <a class="dropdown-item" href="#">Niños</a>
-                    </div>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Hombre</a>
                 </li>
-                <!--Menú desplegable Tops-->
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
-                        Tops
-                    </a>
-                    <div class="dropdown-menu">
-                        <a class="dropdown-item" href="#">Hombre</a>
-                        <a class="dropdown-item" href="#">Mujer</a>
-                        <a class="dropdown-item" href="#">Niños</a>
-                    </div>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Mujer</a>
                 </li>
-                <!--Menú desplegable Zapatos-->
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
-                        Zapatos
-                    </a>
-                    <div class="dropdown-menu">
-                        <a class="dropdown-item" href="#">Hombre</a>
-                        <a class="dropdown-item" href="#">Mujer</a>
-                        <a class="dropdown-item" href="#">Niños</a>
-                    </div>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Niños</a>
                 </li>
             </ul>
         </div>

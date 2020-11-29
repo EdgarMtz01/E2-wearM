@@ -1,15 +1,4 @@
-<!DOCTYPE html>
-<html>
-<head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>wearM - Iniciar sesion </title>
-    <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
-    <link rel="stylesheet" type="text/css" href="assets/css/login.css">
-    <script type="text/javascript" src="assets/js/popper.min.js"></script>
-    <script type="text/javascript" src="assets/js/jquery.min.js"></script>
-    <script type="text/javascript" src="assets/js/bootstrap.min.js"></script>
-    <script type="text/javascript" src="assets/js/main.js"></script>
+	<link rel="stylesheet" type="text/css" href="<?php echo base_url(); ?>/assets/css/login.css">
 </head>
 
 <body style="background-color:#66d7d1">
@@ -36,7 +25,7 @@
 		<p style="color:#707b7c" align="center"> <strong>¿Aun no estas registrado(a)?</strong></p>
 		</div>
 		<div align="center">
-			<a href="pantallaRegistrarse.html" class="btn" style="background-color:#d5d5d5" >Crear cuenta</a> 
+			<a href="<?php echo base_url(); ?>/index.php/Controlador/registroUsuario" class="btn" style="background-color:#d5d5d5" >Crear cuenta</a> 
 		</div>
 
 

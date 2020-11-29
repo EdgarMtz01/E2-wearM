@@ -1,16 +1,4 @@
-<!DOCTYPE html>
-<html>
-
-<head>
-	<title>wearM - Registrarse</title>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
-    <link rel="stylesheet" type="text/css" href="assets/css/registrar.css">
-    <script type="text/javascript" src="assets/js/popper.min.js"></script>
-    <script type="text/javascript" src="assets/js/jquery.min.js"></script>
-    <script type="text/javascript" src="assets/js/bootstrap.min.js"></script>
-    <script type="text/javascript" src="assets/js/main.js"></script>
+	<link rel="stylesheet" type="text/css" href="<?php echo base_url(); ?>/assets/css/registrar.css">
 </head>
 <body style="background-color:#66d7d1">
 	<div class="container" style="background-color:#ffffff">

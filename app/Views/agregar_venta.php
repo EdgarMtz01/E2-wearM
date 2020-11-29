@@ -1,49 +1,6 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>wearM</title>
-    <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
-    <link rel="stylesheet" type="text/css" href="assets/css/main.css">
-    <link href="assets/css/simple-sidebar.css" rel="stylesheet">
-    <script type="text/javascript" src="assets/js/popper.min.js"></script>
-    <script type="text/javascript" src="assets/js/jquery.min.js"></script>
-    <script type="text/javascript" src="assets/js/bootstrap.min.js"></script>
-    <script type="text/javascript" src="assets/js/bootstrap.bundle.min.js"></script>
-    <script type="text/javascript" src="assets/js/main.js"></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-</head>
-
-<body>
-    <div class="d-flex" id="wrapper">
-        <!-- Barra lateral -->
-        <div class="border-right" id="sidebar-wrapper">
-            <div class="sidebar-heading ">
-                <img src="assets/images/usuario.jpg" class="rounded-circle img-fluid" alt="usuario" width="50px">
-                Vendedor
-            </div>
-            <div class="list-group list-group-flush">
-                <a href="#" class="list-group-item list-group-item-action" id="elementos_barra">
-                    <i class="fa fa-home fa-lg mr-3" aria-hidden="true"></i>Inicio</a>
-                <a href="vendedor-productos.html" class="list-group-item list-group-item-action" id="elementos_barra">
-                    <i class="fa fa-archive mr-3" aria-hidden="true"></i>Productos</a>
-                <a href="vendedor-ventas.html" class="list-group-item list-group-item-action" id="elementos_barra">
-                    <i class="fa fa-tags mr-3" aria-hidden="true"></i>Ventas</a>
-            </div>
-        </div>
-        <!--/Termina barra lateral -->
-        <!-- Contenido de la pagina -->
-        <div id="page-content-wrapper">
-            <!-- Barra de navegación superior -->
-            <nav class="navbar navbar-expand-lg navbar-light border-bottom">
-                <button class="navbar-toggler-icon boton" id="menu-toggle"></button>
-                <h5 class="ml-4 mb-0 text-dark">Agregar venta</h5>
-            </nav>
             <div class="container-fluid table-responsive mt-5">
                 <form action="#" name="agregar_venta" method="POST" role= "form" onsubmit="return validacionAV();">
-                <div class="row justify-content-center">
+        		<div class="row justify-content-center">
                     <div class="col-lg-4 col-md-5 col-sm-8 col-10">
                         <div class="form-group d-flex d-inline-block align-items-center">
                             <label for="cliente_venta" class="mb-0 ml-2 mr-3">Cliente</label>
@@ -52,25 +9,26 @@
                                 <option>cliente1</option>
                                 <option>cliente2</option>
                             </select>
-                        </div>
+                        </div>     
                     </div>
                     <div class="col-lg-4 col-md-5 col-sm-8 col-10">
                         <div class="form-group d-flex d-inline-block align-items-center">
-                            <label for="fecha_venta" class="mb-0">Fecha</label>
+                            <label for="fecha" class="mb-0">Fecha</label>
                             <input type="date" class="form-control ml-3" id="fecha_venta">
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-7 col-sm-8 col-8 ml-auto">
-                        <div class="form-group float-right mr-4">
-                            <label class="mr-2">Productos</label>
-                            <a href="#" class="btn btn-success">
-                                <i class="fa fa-plus-square fa-lg mr-2" aria-hidden="true"></i>Agregar
-                            </a>
-                        </div>
+                    <div class="form-group float-right mr-4">
+                        <label class="mr-2">Productos</label>
+                        <a href="#" class="btn btn-success">
+                            <i class="fa fa-plus-square fa-lg mr-2" aria-hidden="true"></i>Agregar
+                        </a>
+                    </div>  
                     </div>
                 </div>
+
                 <!-- Tabla de productos -->
-                <table class="table table-bordered table-hover text-center mt-2">
+      	    	<table class="table table-bordered table-hover text-center mt-2">
                     <thead>
                         <tr>
                             <th>Código</th>
@@ -136,6 +94,7 @@
                         </tr>
                     </tbody>
                 </table>
+
                 <div class="row mt-4">
                     <div class="col-12">
                         <div class="form-group float-right mr-4">
@@ -146,17 +105,18 @@
                 </div>
                 <button type="submit" class="btn btn-success float-right mr-4">Confirmar</button>
             </form>
-            </div>
-        </div>
-        <!--/Termina contenido de la página  -->
-    </div>
+      		</div>
+    	</div>
+    	<!--/Termina contenido de la página  -->
+	</div>
+
     <!-- Ocultar menu lateral -->
     <script type="text/javascript">
-    $("#menu-toggle").click(function(e) {
-        e.preventDefault();
-        $("#wrapper").toggleClass("toggled");
-    });
+      $("#menu-toggle").click(function(e) {
+      e.preventDefault();
+      $("#wrapper").toggleClass("toggled");
+      });
     </script>
-</body>
 
+</body>
 </html>

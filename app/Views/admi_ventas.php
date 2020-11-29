@@ -1,62 +1,14 @@
-<!DOCTYPE html>
-<html>
-<head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>wearM</title>
-
-	<link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
-	<link rel="stylesheet" type="text/css" href="assets/css/main.css">
-	<link href="assets/css/simple-sidebar.css" rel="stylesheet">
-	<script type="text/javascript" src="assets/js/popper.min.js"></script>
-	<script type="text/javascript" src="assets/js/jquery.min.js"></script>
-	<script type="text/javascript" src="assets/js/bootstrap.min.js"></script>
-	<script type="text/javascript" src="assets/js/bootstrap.bundle.min.js"></script>
-	<script type="text/javascript" src="assets/js/main.js"></script>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-</head>
-<body>
-  	<div class="d-flex" id="wrapper">
-
-    	<!-- Barra lateral -->
-    	<div class="border-right" id="sidebar-wrapper">
-      		<div class="sidebar-heading ">                   
-                <img src="assets/images/usuario.jpg" class="rounded-circle img-fluid" alt="usuario" width="50px">
-                Administrador  
-            </div>
-
-            <div class="list-group list-group-flush">
-                <a href="#" class="list-group-item list-group-item-action" id="elementos_barra">
-                    <i class="fa fa-home fa-lg mr-3" aria-hidden="true"></i>Inicio</a>       
-                <a href="admi_productos.html" class="list-group-item list-group-item-action" id="elementos_barra">
-                    <i class="fa fa-archive mr-3" aria-hidden="true"></i>Productos</a>
-                <a href="admi_compras.html" class="list-group-item list-group-item-action" id="elementos_barra">
-                    <i class="fa fa-truck mr-3" aria-hidden="true"></i>Compras</a>
-                <a href="admi_ventas.html" class="list-group-item list-group-item-action" id="elementos_barra">
-                    <i class="fa fa-tags mr-3" aria-hidden="true"></i>Ventas</a>
-            </div>
-    	</div>
-    	<!--/Termina barra lateral -->
-
-    	<!-- Contenido de la pagina -->
-    	<div id="page-content-wrapper">
-
-            <!-- Barra de navegación superior -->
-      		<nav class="navbar navbar-expand-lg navbar-light border-bottom">
-        		<button class="navbar-toggler-icon boton" id="menu-toggle"></button>
-        		<h5 class="ml-4 mb-0 text-dark">Compras</h5>
-      		</nav>
-
-        	<div class="container-fluid table-responsive mt-4">
+            <div class="container-fluid table-responsive mt-4">
         		<div class="row">
         			<div class="col-lg-6 col-md-6 col-sm-8 col-12">
         				<input class="form-control mb-3" id="tableSearch" type="text" placeholder="Escribe algo para buscar">                
         			</div>
         			<div class="col-lg-3 col-md-4 col-sm-4 col-6 ml-auto">
-        				<a href="agregar_compra.html" class="btn btn-success float-right">
+        				<a href="<?php echo base_url(); ?>/index.php/Administrador/agregarVenta" class="btn btn-success float-right">
                             <i class="fa fa-plus-square fa-lg mr-2" aria-hidden="true"></i>Agregar
                         </a>
         			</div>
+        			
         		</div>
 
                 <!-- Tabla de productos -->
@@ -64,6 +16,7 @@
             		<thead>
                 		<tr>
                     		<th>Código</th>
+                        	<th>Cliente</th>
                     		<th>Empleado</th>
                     		<th>Fecha</th>
                     		<th>Total</th>
@@ -73,6 +26,7 @@
            			<tbody id="myTable">
                 		<tr>
                     		<td></td>
+                        	<td></td>
                     		<td></td>
 	                    	<td></td>
 	                    	<td></td>
@@ -89,6 +43,7 @@
                 		</tr>
                 		<tr>
                     		<td></td>
+                        	<td></td>
                     		<td></td>
 	                    	<td></td>
 	                    	<td></td>
@@ -103,6 +58,7 @@
 	                    	</td>
                 		</tr>
                 		<tr>
+                    		<td></td>
                     		<td></td>
                     		<td></td>
 	                		<td></td>

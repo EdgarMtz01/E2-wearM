@@ -1,90 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>wearM</title>
-    <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
-    <link rel="stylesheet" type="text/css" href="assets/css/main.css">
-    <script type="text/javascript" src="assets/js/popper.min.js"></script>
-    <script type="text/javascript" src="assets/js/jquery.min.js"></script>
-    <script type="text/javascript" src="assets/js/bootstrap.min.js"></script>
-</head>
-
-<body>
-    <!-- Inicia header -->
-    <header class="container-fluid">
-        <div class="row align-items-center">
-            <!-- Logo -->
-            <div class="col-lg-3 col-md-3 col-sm-3 col-3">
-                <img src="assets/images/logo.png" id="logo">
-            </div>
-            <!-- Barra de búsqueda -->
-            <div class="col-lg-6 col-md-6 col-sm-6 col-6">
-                <form class="md-form form-sm form-1 pl-0" action="#">
-                    <div class="input-group">
-                        <span class="input-group-prepend">
-                            <button type="submit" class="boton"><img src="assets/images/lupa.png" id="lupa"></button>
-                        </span>
-                        <input class="form-control my-0 py-1" type="text" placeholder="Buscar" aria-label="Search">
-                    </div>
-                </form>
-            </div>
-            <!-- Iconos -->
-            <div class=" col-lg-3 col-md-3 col-sm-3 col-3 d-flex justify-content-center">
-                <a href="carrito-compras.html"><img src="assets/images/carrito.png" class="header_iconos"></a>
-                <a href="#"><img src="assets/images/usuario.png" class="header_iconos"></a>
-                <p>Hola, José</p>
-            </div>
-        </div>
-    </header>
-    <!-- Inicia barra de navegación-->
-    <nav class="navbar navbar-expand-lg navbar-light">
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse justify-content-center" id="navbarTogglerDemo01">
-            <ul class="navbar-nav">
-                <!--Menú desplegable ropa-->
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
-                        Ropa
-                    </a>
-                    <div class="dropdown-menu">
-                        <a class="dropdown-item" href="#">Hombre</a>
-                        <a class="dropdown-item" href="#">Mujer</a>
-                        <a class="dropdown-item" href="#">Niños</a>
-                    </div>
-                </li>
-                <!--Menú desplegable Tops-->
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
-                        Tops
-                    </a>
-                    <div class="dropdown-menu">
-                        <a class="dropdown-item" href="#">Hombre</a>
-                        <a class="dropdown-item" href="#">Mujer</a>
-                        <a class="dropdown-item" href="#">Niños</a>
-                    </div>
-                </li>
-                <!--Menú desplegable Zapatos-->
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
-                        Zapatos
-                    </a>
-                    <div class="dropdown-menu">
-                        <a class="dropdown-item" href="#">Hombre</a>
-                        <a class="dropdown-item" href="#">Mujer</a>
-                        <a class="dropdown-item" href="#">Niños</a>
-                    </div>
-                </li>
-            </ul>
-        </div>
-    </nav>
-    <!-- Termina barra de navegación-->
-
-    <!--Inicia seccion principal-->
+<!--Inicia seccion principal-->
     <!--Inicia barra de informacion de producto-->
     <div class="mt-3 ml-3">
     <h2 class="text-center" id="title-product">Lacoste Bayliss - Zapatillas Deportivas para Hombre</h2>
@@ -104,13 +18,13 @@
             </ol>
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                    <img src="assets/images/lacoste1.png" class="d-block w-100" style="height: 300px;" alt="...">
+                    <img src="<?php echo base_url(); ?>/assets/images/lacoste1.png" class="d-block w-100" style="height: 300px;" alt="...">
                 </div>
                 <div class="carousel-item">
-                    <img src="assets/images/lacoste2.png" class="d-block w-75" style="height: 300px;" alt="...">
+                    <img src="<?php echo base_url(); ?>/assets/images/lacoste2.png" class="d-block w-75" style="height: 300px;" alt="...">
                 </div>
                 <div class="carousel-item">
-                    <img src="assets/images/lacoste3.png" class="d-block w-75" style="height: 300px;" alt="...">
+                    <img src="<?php echo base_url(); ?>/assets/images/lacoste3.png" class="d-block w-75" style="height: 300px;" alt="...">
                 </div>
             </div>
         </div>
@@ -126,13 +40,13 @@
                 </ol>
                 <div class="carousel-inner">
                     <div class="carousel-item active">
-                        <img src="assets/images/lacoste1.png" class="d-block w-100" style="height: 300px;" alt="...">
+                        <img src="<?php echo base_url(); ?>/assets/images/lacoste1.png" class="d-block w-100" style="height: 300px;" alt="...">
                     </div>
                     <div class="carousel-item">
-                        <img src="assets/images/lacoste2.png" class="d-block w-50" style="height: 300px;" alt="...">
+                        <img src="<?php echo base_url(); ?>/assets/images/lacoste2.png" class="d-block w-50" style="height: 300px;" alt="...">
                     </div>
                     <div class="carousel-item">
-                        <img src="assets/images/lacoste3.png" class="d-block w-75" style="height: 300px;" alt="...">
+                        <img src="<?php echo base_url(); ?>/assets/images/lacoste3.png" class="d-block w-75" style="height: 300px;" alt="...">
                     </div>
                 </div>
                 <a class="carousel-control-prev" href="#carouselExampleIndicators1" data-slide="prev">
@@ -179,7 +93,7 @@
         <div class="col">
             <h3>Agregar al carrito</h3>
             <a href="#" title="Carrito">
-                <img src="assets/images/carrito.png" alt="" id="carrito" width="100px">
+                <img src="<?php echo base_url(); ?>/assets/images/carrito.png" alt="" id="carrito" width="100px">
             </a>
         </div>
     </div>
@@ -190,13 +104,13 @@
     </div>
     <div class="row">
         <div class="col">
-            <img src="assets/images/dc1.png" alt="" class="img-fluid">
+            <img src="<?php echo base_url(); ?>/assets/images/dc1.png" alt="" class="img-fluid">
         </div>
         <div class="col">
-            <img src="assets/images/dcred1.png" alt="" class="img-fluid">
+            <img src="<?php echo base_url(); ?>/assets/images/dcred1.png" alt="" class="img-fluid">
         </div>
         <div class="col">
-            <img src="assets/images/lacosteBrown.png" alt="" class="img-fluid">
+            <img src="<?php echo base_url(); ?>/assets/images/lacosteBrown.png" alt="" class="img-fluid">
         </div>
     </div>
     <!--Inicia barra de cometarios-->
@@ -236,6 +150,3 @@
             <p>Buen servicio de entrega</p>
         </div>
     </div>
-</body>
-
-</html>
