@@ -31,4 +31,18 @@ class Controlador extends BaseController
 	{
 		return view('head').view('registro');
 	}
+
+	public function productosHombre()
+	{
+		return view('head').view('hader').view('nav').view('section_prodHombre').view('footer');
+
+	}
+	public function productosMujer()
+	{
+        return view('head').view('hader').view('nav').view('section_prodMujer').view('footer');
+	}
+	public function productosNiño()
+	{
+        return view('head').view('hader').view('nav').view('section_prodNinio').view('footer');
+	}
 }
