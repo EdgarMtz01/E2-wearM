@@ -27,4 +27,9 @@ class Usuario extends BaseController
 	{
 		return view('head').view('headerRegistrado').view('nav').view('section_pago').view('footer');
 	}
+
+	public function envio()
+	{
+		return view('infoEnvio');
+	}
 }
