@@ -20,12 +20,25 @@
                     <div class="col-lg-4 col-md-7 col-sm-8 col-8 ml-auto">
                     <div class="form-group float-right mr-4">
                         <label class="mr-2">Productos</label>
-                        <a href="#" class="btn btn-success">
+                        <a href="#ventana_productos" class="btn btn-success" data-toogle="modal">
                             <i class="fa fa-plus-square fa-lg mr-2" aria-hidden="true"></i>Agregar
                         </a>
                     </div>  
                     </div>
                 </div>
+
+                <!-- Ventana emergente  -->
+                <div class="modal fade" id="ventana_productos">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dissmiss="modal" area-hidden="true">&times;</button>
+                                <h2 class="modal-title">Agregar productos</h2>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Termina ventana emergente -->
 
                 <!-- Tabla de productos -->
       	    	<table class="table table-bordered table-hover text-center mt-2">

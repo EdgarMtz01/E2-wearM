@@ -53,16 +53,15 @@ total float(7,2)
 
 CREATE TABLE producto(
 idProducto int(5) NOT NULL AUTO_INCREMENT PRIMARY KEY,
-idCategoria int(5),
-FOREIGN KEY(idCategoria) REFERENCES categoria(idCategoria),
+categoria enum('Hombre','Mujer','Niños'),
+imagen varchar(60),
 nombre varchar(60),
 descripcion varchar(100),
-talla_ropa set('CH','MD','G'),
-talla_zapato set('20','21','22','23','24','25','26','27','28','29','30'),
+talla varchar(3),
 costo float(7,2),
 precio float(7,2),
 stock int(5),
-disponibilidad boolean
+deleted_at tinyint(1)
 );
 
 CREATE TABLE pedidoVenta(
