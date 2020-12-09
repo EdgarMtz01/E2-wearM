@@ -16,12 +16,14 @@ function validacionAP(){
 	var costo;
 	var precio;
 	var descripcion;
+	var stock;
 
 	codigo = document.getElementById('codigo_producto').value;
 	nombre = document.getElementById('nombre_producto').value;
 	talla = document.getElementById('talla_producto').value;
 	costo = document.getElementById('costo_producto').value;
 	precio = document.getElementById('precio_producto').value;
+	stock = document.getElementById('stock_producto').value;
 	descripcion = document.getElementById('descripcion_producto').value;
 
 	if(codigo == ""){
@@ -60,26 +62,40 @@ function validacionAP(){
 							document.getElementById('descripcion_producto').style.background="lightcyan";
 		                	return false;
 						} else{
-							if(isNaN(codigo)){
-								alert("El campo codigo solo admite numeros");
-								document.getElementById('codigo_producto').focus();
-					        	document.getElementById('codigo_producto').style.background="lightcyan";
-								return false;
+							if (cantidad == "") {
+								alert("Falta ingresar la cantidad");
+								document.getElementById('stock_producto').focus();
+								document.getElementById('stock_producto').style.background="lightcyan";
+		                		return false;
 							} else{
-								if(isNaN(costo)){
-									alert("El campo costo solo admite numeros");
-									document.getElementById('costo_producto').focus();
-					        		document.getElementById('costo_producto').style.background="lightcyan";
+								if(isNaN(codigo)){
+									alert("El campo codigo solo admite numeros");
+									document.getElementById('codigo_producto').focus();
+					        		document.getElementById('codigo_producto').style.background="lightcyan";
 									return false;
 								} else{
-									if (isNaN(precio)) {
-										alert("El campo precio solo admite numeros");
-										document.getElementById('precio_producto').focus();
-					        			document.getElementById('precio_producto').style.background="lightcyan";
+									if(isNaN(costo)){
+										alert("El campo costo solo admite numeros");
+										document.getElementById('costo_producto').focus();
+					        			document.getElementById('costo_producto').style.background="lightcyan";
 										return false;
+									} else{
+										if (isNaN(precio)) {
+											alert("El campo precio solo admite numeros");
+											document.getElementById('precio_producto').focus();
+					        				document.getElementById('precio_producto').style.background="lightcyan";
+											return false;
+										} else{
+											if (isNaN(cantidad)) {
+												alert("El campo cantidad solo admite numeros");
+												document.getElementById('stock_producto').focus();
+					        					document.getElementById('stock_producto').style.background="lightcyan";
+												return false;
+											}
+											alert("Producto agregado correctamente");
+											document.agregar_producto.submit();
+										}
 									}
-									alert("Producto agregado correctamente");
-									document.agregar_producto.submit();
 								}
 							}
 						}	

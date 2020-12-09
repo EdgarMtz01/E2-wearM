@@ -65,21 +65,20 @@ INSERT INTO compra VALUES(1,2,'2020-12-04',895.32),(2,2,'2020-12-03',2948.7),(3,
 
 CREATE TABLE producto(
 idProducto int(5) NOT NULL AUTO_INCREMENT PRIMARY KEY,
-idCategoria int(5),
-FOREIGN KEY(idCategoria) REFERENCES categoria(idCategoria),
+categoria enum('Hombre','Mujer','Niños'),
+imagen varchar(60),
 nombre varchar(60),
 descripcion varchar(100),
-talla_ropa set('CH','MD','G') NULL,
-talla_zapato set('20','21','22','23','24','25','26','27','28','29','30') NULL,
+talla varchar(3),
 costo float(7,2),
 precio float(7,2),
 stock int(5),
-disponibilidad boolean
+deleted_at tinyint(1)
 );
 
-INSERT INTO producto VALUES(1,1,'Jeremy Zapatos de Cordones Brogue','Zapatos Hombre','','26',435.6,535.67,5,'true'),
-							(2,2,'BOTA ALTA PIEL PUNTA CUADRADA','Zapatos Mujer','','24',345.1,455.7,1,'true');
-							(3,3,'BOTÍN ELÁSTICOS','Zapatos Niño','','23',245.2,34.8,6,'true');
+INSERT INTO producto VALUES(1,'Hombre',null,'Jeremy Zapatos de Cordones Brogue','Zapatos Hombre','26',435.6,535.67,5,null),
+							(2,'Mujer',null,'BOTA ALTA PIEL PUNTA CUADRADA','Zapatos Mujer','24',345.1,455.7,1,null),
+							(3,'Niños',null,'BOTÍN ELÁSTICOS','Zapatos Niño','23',245.2,34.8,6,null);
 
 CREATE TABLE pedidoVenta(
 idPedidoVenta int(5) NOT NULL AUTO_INCREMENT PRIMARY KEY,
