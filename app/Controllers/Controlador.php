@@ -46,4 +46,5 @@ class Controlador extends BaseController
 	{
         return view('head').view('header').view('nav').view('section_prodNinio').view('footer');
 	}
+
 }

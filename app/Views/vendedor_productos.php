@@ -19,16 +19,20 @@
                         </tr>
                     </thead>
                     <tbody id="myTable">
+                        <?php if($posts): ?>
+                        <?php foreach($posts as $post): ?>
                         <tr>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                            <td></td>
+                            <td><?php echo $post['idProducto']; ?></td>
+                            <td><?php echo $post['']; ?></td>
+                            <td><?php echo $post['nombre']; ?></td>
+                            <td><?php echo $post['descripción']; ?></td>
+                            <td><?php echo $post['categoria']; ?></td>
+                            <td><?php echo $post['']; ?></td>
+                            <td><?php echo $post['stock']; ?></td>
+                            <td><?php echo $post['precio']; ?></td>
                         </tr>
+                        <?php endforeach; ?>
+                        <?php endif; ?>
                         <tr>
                             <td></td>
                             <td></td>
