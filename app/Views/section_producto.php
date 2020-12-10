@@ -97,7 +97,7 @@
         </div>
         <!--Agregar a carrito-->
         <div class="col">
-            <a href="<?php echo base_url(); ?>/index.php/Usuario/carritoCompras" class="btn btn-warning" role="button" data-bs-toggle="button">Agregar al carrito</a>
+            <a href="<?php echo base_url(); ?>/index.php/Controlador/inicioSesion" class="btn btn-warning" role="button" data-bs-toggle="button">Agregar al carrito</a>
             <!--    <h3>Agregar al carrito</h3>-->
             <!--    <a href="#" title="Carrito">
                 <img src="<?php echo base_url(); ?>/assets/images/carrito.png" alt="" id="carrito" width="100px">
@@ -137,9 +137,9 @@
                 </div>
                 <div class="bg-white">
                     <div class="d-flex flex-row fs-12">
-                        <div class="like p-2 cursor"><i class="fa fa-thumbs-o-up"></i><span class="ml-1">Me gusta</span></div>
-                        <div class="like p-2 cursor"><i class="fa fa-commenting-o"></i><span class="ml-1">Comentar</span></div>
-                        <div class="like p-2 cursor"><i class="fa fa-share"></i><span class="ml-1">Compartir</span></div>
+                        <div class="like p-2 cursor"><i class="fa fa-thumbs-o-up"></i><span class="ml-1"><a href="">Me gusta</a></span></div>
+                        <div class="like p-2 cursor"><i class="fa fa-commenting-o"></i><span class="ml-1"><a href="">Comentar</a></span></div>
+                        <div class="like p-2 cursor"><i class="fa fa-share"></i><span class="ml-1"><a href="">Compartir</a></span></div>
                     </div>
                 </div>
                 <div class="bg-light p-2">
