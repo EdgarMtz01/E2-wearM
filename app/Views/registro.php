@@ -4,21 +4,24 @@
 	<div class="container" style="background-color:#ffffff">
 		<!--Titulo del contenedor-->
 		<h1 class="crear"> <strong>Crea tu cuenta</strong></h1>
+		 <?php if(isset($validation)):?>
+        <div class="alert alert-danger"><?= $validation->listErrors() ?></div>
+         <?php endif;?>
 		<form action="#" name="registrar_usuario" method="POST" role= "form" onsubmit="return validacionRC();">
 			<h5 class="nom">Nombre(s)</h5>
-			<input class="nombre" type="text" name="form-control-plaintext" id="nombre_cuenta">
+			<input class="nombre" type="text" name="form-control-plaintext" id="nombre_cuenta" value="<?= set_value('nombre') ?>"
 			<div>
 				<h5 class="ape">Apellidos</h5>
-				<input class="apellido" type="text" name="form-control-plaintext" id="apellido_cuenta">
+				<input class="apellido" type="text" name="form-control-plaintext" id="apellido_cuenta" value="<?php echo "apellido"; ?>">
 				<div>
 					<h5>Correo electrónico</h5>
-					<input class="correo" type="text" name="form-control-plaintext" id="correo_cuenta">
+					<input class="correo" type="text" name="form-control-plaintext" id="correo_cuenta" value="<?php echo "correo"; ?>">
 					<div>
 						<h5>Contraseña</h5>
-						<input class="password" type="password" name="form-control-plaintext" placeholder="mínimo 8 caracteres" id="password_cuenta">
+						<input class="password" type="password" name="form-control-plaintext" placeholder="mínimo 8 caracteres" id="password_cuenta" value="<?php echo "contrasenia"; ?>">
 						<div>
 							<h5>Vuelva a escribir su contraseña</h5>
-							<input class="password1" type="password" name="form-control-plaintext" placeholder="mínimo 8 caracteres" id="password1_cuenta">
+							<input class="password1" type="password" name="form-control-plaintext" placeholder="mínimo 8 caracteres" id="password1_cuenta" value="<?php echo "confcontrasenia"; ?>">
 							<div>
 								<!--Botón para crear cuenta-->
 								<button type="submit" class="btn" style="background-color: #f4f188"><strong><h5>Crear cuenta</h5></strong></button>

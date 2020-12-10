@@ -87,6 +87,5 @@
       $("#wrapper").toggleClass("toggled");
       });
     </script>
-
 </body>
 </html>
