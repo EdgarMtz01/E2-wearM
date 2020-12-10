@@ -26,7 +26,7 @@
                                     <div class="card-body">
                                         <h4 class="card-title">Flexi Jeremy Zapatos de Cordones Brogue </h4>
                                         <p class="card-text">Precio: $815.15 </p>
-                                        <a class="btn btn-warning">Comprar ahora</a>
+                                        <a class="btn btn-warning" href="<?php echo base_url(); ?>/index.php/Controlador/detalleProducto">Comprar ahora</a>
                                     </div>
                                 </div>
                             </div>
@@ -36,7 +36,7 @@
                                     <div class="card-body">
                                         <h4 class="card-title">Flexi Botín Casual para Hombre</h4>
                                         <p class="card-text">Precio: $499.50</p>
-                                        <a class="btn btn-warning">Comprar ahora</a>
+                                        <a class="btn btn-warning" href="<?php echo base_url(); ?>/index.php/Controlador/detalleProducto">Comprar ahora</a>
                                     </div>
                                 </div>
                             </div>
@@ -46,7 +46,7 @@
                                     <div class="card-body">
                                         <h4 class="card-title">GLOBALWIN Zapatillas de Moda</h4>
                                         <p class="card-text">Precio: $382.44</p>
-                                        <a class="btn btn-warning">Comprar ahora</a>
+                                        <a class="btn btn-warning" href="<?php echo base_url(); ?>/index.php/Controlador/detalleProducto">Comprar ahora</a>
                                     </div>
                                 </div>
                             </div>
@@ -62,7 +62,7 @@
                                     <div class="card-body">
                                         <h4 class="card-title">Bruno Marc Zapatos de Vestir Oxford </h4>
                                         <p class="card-text">Precio: $799.00 </p>
-                                        <a class="btn btn-warning">Comprar ahora</a>
+                                        <a class="btn btn-warning" href="<?php echo base_url(); ?>/index.php/Controlador/detalleProducto">Comprar ahora</a>
                                     </div>
                                 </div>
                             </div>
@@ -72,7 +72,7 @@
                                     <div class="card-body">
                                         <h4 class="card-title">Flexi Salamanca Zapatos de Cordones Brogue</h4>
                                         <p class="card-text">Precio: $862.05</p>
-                                        <a class="btn btn-warning">Comprar ahora</a>
+                                        <a class="btn btn-warning" href="<?php echo base_url(); ?>/index.php/Controlador/detalleProducto">Comprar ahora</a>
                                     </div>
                                 </div>
                             </div>
@@ -82,7 +82,7 @@
                                     <div class="card-body">
                                         <h4 class="card-title">Crocs Santa Cruz Mocasines cómodos</h4>
                                         <p class="card-text">Precio: $1,167.20 Antes $1,570.50</p>
-                                        <a class="btn btn-warning">Comprar ahora</a>
+                                        <a class="btn btn-warning" href="<?php echo base_url(); ?>/index.php/Controlador/detalleProducto">Comprar ahora</a>
                                     </div>
                                 </div>
                             </div>
@@ -121,7 +121,7 @@
                                     <div class="card-body">
                                         <h4 class="card-title">Fruit of the loom Men's playera de cuello redondo de bolsillo </h4>
                                         <p class="card-text">Precio: $403.59 </p>
-                                        <a class="btn btn-warning">Comprar ahora</a>
+                                        <a class="btn btn-warning" href="<?php echo base_url(); ?>/index.php/Controlador/detalleProducto">Comprar ahora</a>
                                     </div>
                                 </div>
                             </div>
@@ -132,7 +132,7 @@
                                         <h4 class="card-title">Hanes Men's Jersey Short with Pockets
                                         </h4>
                                         <p class="card-text">Precio: $245.00</p>
-                                        <a class="btn btn-warning">Comprar ahora</a>
+                                        <a class="btn btn-warning" href="<?php echo base_url(); ?>/index.php/Controlador/detalleProducto">Comprar ahora</a>
                                     </div>
                                 </div>
                             </div>
@@ -142,7 +142,7 @@
                                     <div class="card-body">
                                         <h4 class="card-title">Dickies Men's Big Short-Sleeve Pique Polo Shirt</h4>
                                         <p class="card-text">Precio: $274.87</p>
-                                        <a class="btn btn-warning">Comprar ahora</a>
+                                        <a class="btn btn-warning" href="<?php echo base_url(); ?>/index.php/Controlador/detalleProducto">Comprar ahora</a>
                                     </div>
                                 </div>
                             </div>
@@ -158,7 +158,7 @@
                                     <div class="card-body">
                                         <h4 class="card-title">Jerzees - Polo de Manga Corta para Hombre</h4>
                                         <p class="card-text">Precio: $884.99 </p>
-                                        <a class="btn btn-warning">Comprar ahora</a>
+                                        <a class="btn btn-warning" href="<?php echo base_url(); ?>/index.php/Controlador/detalleProducto">Comprar ahora</a>
                                     </div>
                                 </div>
                             </div>
@@ -168,7 +168,7 @@
                                     <div class="card-body">
                                         <h4 class="card-title">G.H. Bass & Co. - Camiseta de Manga Corta con Cuello Redondo para Hombre</h4>
                                         <p class="card-text">Precio: $463.71</p>
-                                        <a class="btn btn-warning">Comprar ahora</a>
+                                        <a class="btn btn-warning" href="<?php echo base_url(); ?>/index.php/Controlador/detalleProducto">Comprar ahora</a>
                                     </div>
                                 </div>
                             </div>
@@ -178,7 +178,7 @@
                                     <div class="card-body">
                                         <h4 class="card-title">Nautica - Camiseta de Manga Corta con Cuello Redondo para Hombre</h4>
                                         <p class="card-text">Precio: $388.410</p>
-                                        <a class="btn btn-warning">Comprar ahora</a>
+                                        <a class="btn btn-warning" href="<?php echo base_url(); ?>/index.php/Controlador/detalleProducto">Comprar ahora</a>
                                     </div>
                                 </div>
                             </div>
@@ -217,7 +217,7 @@
                                     <div class="card-body">
                                         <h4 class="card-title">BLAZER LANA UNIT 04</h4>
                                         <p class="card-text">Precio: $2,499.00 </p>
-                                        <a class="btn btn-warning">Comprar ahora</a>
+                                        <a class="btn btn-warning" href="<?php echo base_url(); ?>/index.php/Controlador/detalleProducto">Comprar ahora</a>
                                     </div>
                                 </div>
                             </div>
@@ -227,7 +227,7 @@
                                     <div class="card-body">
                                         <h4 class="card-title">JEANS SLIM FIT MAN UNIT. 04    </h4>
                                         <p class="card-text">Precio: $799.00</p>
-                                        <a class="btn btn-warning">Comprar ahora</a>
+                                        <a class="btn btn-warning" href="<?php echo base_url(); ?>/index.php/Controlador/detalleProducto">Comprar ahora</a>
                                     </div>
                                 </div>
                             </div>
@@ -237,7 +237,7 @@
                                     <div class="card-body">
                                         <h4 class="card-title">PANTALÓN TAILORED MAN UNIT. 02</h4>
                                         <p class="card-text">Precio: $799.00</p>
-                                        <a class="btn btn-warning">Comprar ahora</a>
+                                        <a class="btn btn-warning" href="<?php echo base_url(); ?>/index.php/Controlador/detalleProducto">Comprar ahora</a>
                                     </div>
                                 </div>
                             </div>
@@ -253,7 +253,7 @@
                                     <div class="card-body">
                                         <h4 class="card-title">JERSEY BULKY UNISEX UNIT. 03</h4>
                                         <p class="card-text">Precio: $799.00 </p>
-                                        <a class="btn btn-warning">Comprar ahora</a>
+                                        <a class="btn btn-warning" href="<?php echo base_url(); ?>/index.php/Controlador/detalleProducto">Comprar ahora</a>
                                     </div>
                                 </div>
                             </div>
@@ -263,7 +263,7 @@
                                     <div class="card-body">
                                         <h4 class="card-title">JEANS REGULAR FIT MAN UNIT. 03</h4>
                                         <p class="card-text">Precio: $799.00</p>
-                                        <a class="btn btn-warning">Comprar ahora</a>
+                                        <a class="btn btn-warning" href="<?php echo base_url(); ?>/index.php/Controlador/detalleProducto">Comprar ahora</a>
                                     </div>
                                 </div>
                             </div>
@@ -273,7 +273,7 @@
                                     <div class="card-body">
                                         <h4 class="card-title">BOTÍN PIEL VOLUMEN</h4>
                                         <p class="card-text">Precio: $1,999.00</p>
-                                        <a class="btn btn-warning">Comprar ahora</a>
+                                        <a class="btn btn-warning" href="<?php echo base_url(); ?>/index.php/Controlador/detalleProducto">Comprar ahora</a>
                                     </div>
                                 </div>
                             </div>
