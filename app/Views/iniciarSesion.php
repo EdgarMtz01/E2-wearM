@@ -12,9 +12,9 @@
 					<div>
 						<button type="submit" class="btn" style="background-color: #f4f188">Continuar</button>
 						<div>
-							<a href="#">
+						<!--	<a href="#">
 								<small class="sm" style="color: blue"> >¿Necesitas ayuda?</small>
-							</a>
+							</a>-->
 						</div>
 					</div>
 				</form>

@@ -89,7 +89,7 @@
                         </div>
                     </div>
                 </div>
-                <button type="submit" class="btn btn-success float-right mr-4">Confirmar</button>
+                <button type="submit" class="btn btn-success float-right mr-4" onclick="sweetalertclick()">Confirmar</button>
             </form>
       		</div>
     	</div>
