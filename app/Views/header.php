@@ -13,7 +13,7 @@
                 <form class="md-form form-sm form-1 pl-0" action="#">
                     <div class="input-group">
                         <span class="input-group-prepend">
-                            <button type="submit" class="boton"><img src="<?php echo base_url(); ?>/assets/images/lupa.png" id="lupa"></button>
+                            <a class="boton" href="<?php echo base_url(); ?>/index.php/Controlador/busquedaProductos"><img src="<?php echo base_url(); ?>/assets/images/lupa.png" id="lupa"></a>
                         </span>
                         <input class="form-control my-0 py-1" type="text" placeholder="Buscar" aria-label="Search">
                     </div>
