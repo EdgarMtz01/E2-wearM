@@ -30,8 +30,8 @@ ciudad varchar(70) NULL,
 colonia varchar(70) NULL
 );
 
-INSERT INTO empleado VALUES(1,'Edgar','Martinez Sanjuan','edgar32@gmail.com','edgar345','Juaréz',2849,'Hidalgo','Zempoala','Zempoala');
-INSERT INTO empleado VALUES(2,'Cristian','Hernandez Bautista','cris78@gmail.com','cris568','Morelos',2840,'Hidalgo','Pachuca','Pachuca');
+INSERT INTO empleado VALUES(1,'Edgar','Martinez Sanjuan','edgar32@wearm.com','edgar345','Juaréz',2849,'Hidalgo','Zempoala','Zempoala');
+INSERT INTO empleado VALUES(2,'Cristian','Hernandez Bautista','cris78@wearm.com','cris568','Morelos',2840,'Hidalgo','Pachuca','Pachuca');
 
 
 CREATE TABLE categoria(
