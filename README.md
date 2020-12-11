@@ -1,2 +1,2 @@
-# wearM
-Punto de venta online de zapatos y ropa
+# ProyectoWeb-E2
+Sitio web de la asignatura Programacion Web
