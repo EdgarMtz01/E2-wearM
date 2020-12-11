@@ -60,7 +60,7 @@
                             <label for="descripcion_producto">Descripción</label>
                             <textarea class="form-control" rows="3" id="descripcion_producto" name="descripcion_producto"></textarea>      
                         </div>
-                        <button type="submit" name="subir" class="btn btn-success d-flex ml-auto">Guardar</button>
+                        <button type="submit" name="subir" class="btn btn-success d-flex ml-auto"  onclick="sweetalertclick()">Guardar</button>
                     </div>
                 </form>
       		</div>
@@ -74,6 +74,13 @@
       e.preventDefault();
       $("#wrapper").toggleClass("toggled");
       });
+    </script>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script> <!--SweetAlert1-->
+    <!--Ejecutar sweetAlert-->
+    <script> 
+        function sweetalertclick(){ 
+            swal(':D','Agregado correctamente','Success');
+        }
     </script>
 
 </body>

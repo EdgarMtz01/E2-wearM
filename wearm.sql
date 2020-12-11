@@ -8,11 +8,11 @@ nombre varchar(60),
 apellidos varchar(80),
 correo varchar(60),
 contrasenia varchar(15),
-calle varchar(100),
-codigoPostal varchar(5),
-estado varchar(70),
-ciudad varchar(70),
-colonia varchar(70)
+calle varchar(100) NULL,
+codigoPostal varchar(5) NULL,
+estado varchar(70) NULL,
+ciudad varchar(70) NULL,
+colonia varchar(70) NULL
 );
 
 INSERT INTO cliente VALUES(1,'Jose Angel','Peréz Cruz','jose12@gmail.com','jose1221','Zaragoza',2341,'Hidalgo','Pachuca','Tulipanes');
@@ -23,15 +23,15 @@ nombre varchar(60),
 apellidos varchar(80),
 correo varchar(60),
 contrasenia varchar(15),
-calle varchar(100),
-codigoPostal varchar(5),
-estado varchar(70),
-ciudad varchar(70),
-colonia varchar(70)
+calle varchar(100) NULL,
+codigoPostal varchar(5) NULL,
+estado varchar(70) NULL,
+ciudad varchar(70) NULL,
+colonia varchar(70) NULL
 );
 
-INSERT INTO empleado VALUES(1,'Edgar','Martinez Sanjuan','edgar32@gmail.com','edgar345','Juaréz',2849,'Hidalgo','Zempoala','Zempoala');
-INSERT INTO empleado VALUES(2,'Cristian','Hernandez Bautista','cris78@gmail.com','cris568','Morelos',2840,'Hidalgo','Pachuca','Pachuca');
+INSERT INTO empleado VALUES(1,'Edgar','Martinez Sanjuan','edgar32@wearm.com','edgar345','Juaréz',2849,'Hidalgo','Zempoala','Zempoala');
+INSERT INTO empleado VALUES(2,'Cristian','Hernandez Bautista','cris78@wearm.com','cris568','Morelos',2840,'Hidalgo','Pachuca','Pachuca');
 
 
 CREATE TABLE categoria(

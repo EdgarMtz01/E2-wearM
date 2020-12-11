@@ -107,7 +107,7 @@
             </div>
             <div class="container-fluid text-center">
                 <p class="text-danger">Colección Otoño - Invierno 2020</p>
-                <a class="btn btn-outline-warning text-dark">Mostrar looks</a>
+               <!-- <a class="btn btn-outline-warning text-dark">Mostrar looks</a>-->
             </div>
         </div>
     </section>

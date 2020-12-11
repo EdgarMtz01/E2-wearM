@@ -26,7 +26,7 @@
                                     <div class="card-body">
                                         <h4 class="card-title">DEPORTIVO COMBINADO</h4>
                                         <p class="card-text">Precio: $749.00</p>
-                                        <a class="btn btn-warning">Comprar ahora</a>
+                                        <a class="btn btn-warning" href="<?php echo base_url(); ?>/index.php/Controlador/detalleProducto">Comprar ahora</a>
                                     </div>
                                 </div>
                             </div>
@@ -36,7 +36,7 @@
                                     <div class="card-body">
                                         <h4 class="card-title">BOTÍN ELÁSTICOS</h4>
                                         <p class="card-text">Precio: $749.00</p>
-                                        <a class="btn btn-warning">Comprar ahora</a>
+                                        <a class="btn btn-warning" href="<?php echo base_url(); ?>/index.php/Controlador/detalleProducto">Comprar ahora</a>
                                     </div>
                                 </div>
                             </div>
@@ -46,7 +46,7 @@
                                     <div class="card-body">
                                         <h4 class="card-title">BOTA PIEL FORRADA MONTAÑA</h4>
                                         <p class="card-text">Precio: $1,399.00</p>
-                                        <a class="btn btn-warning">Comprar ahora</a>
+                                        <a class="btn btn-warning" href="<?php echo base_url(); ?>/index.php/Controlador/detalleProducto">Comprar ahora</a>
                                     </div>
                                 </div>
                             </div>
@@ -62,7 +62,7 @@
                                     <div class="card-body">
                                         <h4 class="card-title">BOTÍN DEPORTIVO MICKEY & FRIENDS ©DISNEY</h4>
                                         <p class="card-text">Precio: $699.00</p>
-                                        <a class="btn btn-warning">Comprar ahora</a>
+                                        <a class="btn btn-warning" href="<?php echo base_url(); ?>/index.php/Controlador/detalleProducto">Comprar ahora</a>
                                     </div>
                                 </div>
                             </div>
@@ -72,7 +72,7 @@
                                     <div class="card-body">
                                         <h4 class="card-title">DEPORTIVO SOCK</h4>
                                         <p class="card-text">Precio: $699.00</p>
-                                        <a class="btn btn-warning">Comprar ahora</a>
+                                        <a class="btn btn-warning" href="<?php echo base_url(); ?>/index.php/Controlador/detalleProducto">Comprar ahora</a>
                                     </div>
                                 </div>
                             </div>
@@ -82,7 +82,7 @@
                                     <div class="card-body">
                                         <h4 class="card-title">DEPORTIVO PLAYSTATION © SONY INTERACTIVE ENTERTAINMENT</h4>
                                         <p class="card-text">Precio: $899.00</p>
-                                        <a class="btn btn-warning">Comprar ahora</a>
+                                        <a class="btn btn-warning" href="<?php echo base_url(); ?>/index.php/Controlador/detalleProducto">Comprar ahora</a>
                                     </div>
                                 </div>
                             </div>
@@ -121,7 +121,7 @@
                                     <div class="card-body">
                                         <h4 class="card-title">SOBRECAMISA PANA BORREGUILLO</h4>
                                         <p class="card-text">Precio: $749.00</p>
-                                        <a class="btn btn-warning">Comprar ahora</a>
+                                        <a class="btn btn-warning" href="<?php echo base_url(); ?>/index.php/Controlador/detalleProducto">Comprar ahora</a>
                                     </div>
                                 </div>
                             </div>
@@ -131,7 +131,7 @@
                                     <div class="card-body">
                                         <h4 class="card-title">CAMISA CUADROS</h4>
                                         <p class="card-text">Precio: $469.00</p>
-                                        <a class="btn btn-warning">Comprar ahora</a>
+                                        <a class="btn btn-warning" href="<?php echo base_url(); ?>/index.php/Controlador/detalleProducto">Comprar ahora</a>
                                     </div>
                                 </div>
                             </div>
@@ -141,7 +141,7 @@
                                     <div class="card-body">
                                         <h4 class="card-title">SOBRECAMISA BORREGUILLO</h4>
                                         <p class="card-text">Precio: $599.00</p>
-                                        <a class="btn btn-warning">Comprar ahora</a>
+                                        <a class="btn btn-warning" href="<?php echo base_url(); ?>/index.php/Controlador/detalleProducto">Comprar ahora</a>
                                     </div>
                                 </div>
                             </div>
@@ -157,7 +157,7 @@
                                     <div class="card-body">
                                         <h4 class="card-title">CAMISA PLISADA CON PAJARITA</h4>
                                         <p class="card-text">Precio: $269.00</p>
-                                        <a class="btn btn-warning">Comprar ahora</a>
+                                        <a class="btn btn-warning" href="<?php echo base_url(); ?>/index.php/Controlador/detalleProducto">Comprar ahora</a>
                                     </div>
                                 </div>
                             </div>
@@ -167,7 +167,7 @@
                                     <div class="card-body">
                                         <h4 class="card-title">CAMISA ESTRUCTURA</h4>
                                         <p class="card-text">Precio: $529.00</p>
-                                        <a class="btn btn-warning">Comprar ahora</a>
+                                        <a class="btn btn-warning" href="<?php echo base_url(); ?>/index.php/Controlador/detalleProducto">Comprar ahora</a>
                                     </div>
                                 </div>
                             </div>
@@ -177,7 +177,7 @@
                                     <div class="card-body">
                                         <h4 class="card-title">PANTALÓN SPORTY COLOR BLOCK</h4>
                                         <p class="card-text">Precio: $469.00</p>
-                                        <a class="btn btn-warning">Comprar ahora</a>
+                                        <a class="btn btn-warning" href="<?php echo base_url(); ?>/index.php/Controlador/detalleProducto">Comprar ahora</a>
                                     </div>
                                 </div>
                             </div>
@@ -216,7 +216,7 @@
                                     <div class="card-body">
                                         <h4 class="card-title">CHAQUETA NEOPRENO SPORTY ACOLCHADA</h4>
                                         <p class="card-text">Precio: $749.00</p>
-                                        <a class="btn btn-warning">Comprar ahora</a>
+                                        <a class="btn btn-warning" href="<?php echo base_url(); ?>/index.php/Controlador/detalleProducto">Comprar ahora</a>
                                     </div>
                                 </div>
                             </div>
@@ -226,7 +226,7 @@
                                     <div class="card-body">
                                         <h4 class="card-title">CAMISETA SPORTY FLÚOR</h4>
                                         <p class="card-text">Precio: $329.00</p>
-                                        <a class="btn btn-warning">Comprar ahora</a>
+                                        <a class="btn btn-warning" href="<?php echo base_url(); ?>/index.php/Controlador/detalleProducto">Comprar ahora</a>
                                     </div>
                                 </div>
                             </div>
@@ -236,7 +236,7 @@
                                     <div class="card-body">
                                         <h4 class="card-title">BOTÍN DEPORTIVO CALCETÍN</h4>
                                         <p class="card-text">Precio: $899.00</p>
-                                        <a class="btn btn-warning">Comprar ahora</a>
+                                        <a class="btn btn-warning" href="<?php echo base_url(); ?>/index.php/Controlador/detalleProducto">Comprar ahora</a>
                                     </div>
                                 </div>
                             </div>
@@ -252,7 +252,7 @@
                                     <div class="card-body">
                                         <h4 class="card-title">PANTALÓN SPORTY LOGO EMBOSSED</h4>
                                         <p class="card-text">Precio: $529.00</p>
-                                        <a class="btn btn-warning">Comprar ahora</a>
+                                        <a class="btn btn-warning" href="<?php echo base_url(); ?>/index.php/Controlador/detalleProducto">Comprar ahora</a>
                                     </div>
                                 </div>
                             </div>
@@ -262,7 +262,7 @@
                                     <div class="card-body">
                                         <h4 class="card-title">GORRO PUNTO FLÚOR</h4>
                                         <p class="card-text">Precio: $249.00</p>
-                                        <a class="btn btn-warning">Comprar ahora</a>
+                                        <a class="btn btn-warning" href="<?php echo base_url(); ?>/index.php/Controlador/detalleProducto">Comprar ahora</a>
                                     </div>
                                 </div>
                             </div>
@@ -272,7 +272,7 @@
                                     <div class="card-body">
                                         <h4 class="card-title">SUDADERA POLAR SPORTY FLÚOR</h4>
                                         <p class="card-text">Precio: $599.00</p>
-                                        <a class="btn btn-warning">Comprar ahora</a>
+                                        <a class="btn btn-warning" href="<?php echo base_url(); ?>/index.php/Controlador/detalleProducto">Comprar ahora</a>
                                     </div>
                                 </div>
                             </div>

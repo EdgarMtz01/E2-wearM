@@ -4,7 +4,7 @@
                         <input class="form-control mb-3" id="tableSearch" type="text" placeholder="Escribe algo para buscar">                
                     </div>
                     <div class="col-lg-3 col-md-4 col-sm-4 col-6 ml-auto">
-                        <a href="<?php echo base_url(); ?>/index.php/Administrador/agregarCompra" class="btn btn-success float-right">
+                        <a href="<?php echo base_url(); ?>/index.php/Administrador/agregarCompra" class="btn btn-success float-right" onclick="sweetalertclick()">
                             <i class="fa fa-plus-square fa-lg mr-2" aria-hidden="true"></i>Agregar
                         </a>
                     </div>
@@ -82,6 +82,11 @@
       $("#wrapper").toggleClass("toggled");
       });
     </script>
-    
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script> <!--SweetAlert1-->
+    <script>
+        function sweetalertclick(){
+            swal(':D','Agregado correctamente');
+        }
+    </script>
 </body>
 </html>

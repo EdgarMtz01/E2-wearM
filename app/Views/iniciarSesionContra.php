@@ -7,9 +7,9 @@
 			<div><h1 class="sesion">Iniciar sesión </h1>
 				<form action="pantallaInicioUsuarioReg.html" name="iniciar_sesion" method="POST" role= "form" onsubmit="return validacionISC();">
 					<h4 class="usu">Jose Angel <a href="#"><u style="color: blue">Cambiar</u></a> </h4>
-						<div>
+						<!-- <div>
 							<h5>Contraseña <a href="#"><u style="color: blue"> ¿Olvidaste tu contraseña? </u> </a></h5>
-						</div>
+						</div>-->
 						<!--Espacio para escribir contraseña-->
 							<input input type="password" class="form-control" id="pwd" placeholder="Mínimo 8 caracteres">	
 							<div>

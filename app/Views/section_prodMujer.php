@@ -26,7 +26,7 @@
                                     <div class="card-body">
                                         <h4 class="card-title">BOTA ALTA PIEL PUNTA CUADRADA</h4>
                                         <p class="card-text">Precio: $3,299.00</p>
-                                        <a class="btn btn-warning">Comprar ahora</a>
+                                        <a class="btn btn-warning" href="<?php echo base_url(); ?>/index.php/Controlador/detalleProducto">Comprar ahora</a>
                                     </div>
                                 </div>
                             </div>
@@ -36,7 +36,7 @@
                                     <div class="card-body">
                                         <h4 class="card-title">DEPORTIVAS PIEL SOFT</h4>
                                         <p class="card-text">Precio: $1,299.00</p>
-                                        <a class="btn btn-warning">Comprar ahora</a>
+                                        <a class="btn btn-warning" href="<?php echo base_url(); ?>/index.php/Controlador/detalleProducto">Comprar ahora</a>
                                     </div>
                                 </div>
                             </div>
@@ -46,7 +46,7 @@
                                     <div class="card-body">
                                         <h4 class="card-title">DEPORTIVO PIEL COMBINADO</h4>
                                         <p class="card-text">Precio: $1,299.00</p>
-                                        <a class="btn btn-warning">Comprar ahora</a>
+                                        <a class="btn btn-warning" href="<?php echo base_url(); ?>/index.php/Controlador/detalleProducto">Comprar ahora</a>
                                     </div>
                                 </div>
                             </div>
@@ -62,7 +62,7 @@
                                     <div class="card-body">
                                         <h4 class="card-title">DEPORTIVAS ELÁSTICAS CALCETÍN</h4>
                                         <p class="card-text">Precio: $999.00 </p>
-                                        <a class="btn btn-warning">Comprar ahora</a>
+                                        <a class="btn btn-warning" href="<?php echo base_url(); ?>/index.php/Controlador/detalleProducto">Comprar ahora</a>
                                     </div>
                                 </div>
                             </div>
@@ -72,7 +72,7 @@
                                     <div class="card-body">
                                         <h4 class="card-title">DEPORTIVAS COMBINADAS TEJIDO ACOLCHADO</h4>
                                         <p class="card-text">Precio: $1,299.00</p>
-                                        <a class="btn btn-warning">Comprar ahora</a>
+                                        <a class="btn btn-warning" href="<?php echo base_url(); ?>/index.php/Controlador/detalleProducto">Comprar ahora</a>
                                     </div>
                                 </div>
                             </div>
@@ -82,7 +82,7 @@
                                     <div class="card-body">
                                         <h4 class="card-title">DEPORTIVAS CANVAS SUELA VULCANIZADA</h4>
                                         <p class="card-text">Precio: $599.00 MXN</p>
-                                        <a class="btn btn-warning">Comprar ahora</a>
+                                        <a class="btn btn-warning" href="<?php echo base_url(); ?>/index.php/Controlador/detalleProducto">Comprar ahora</a>
                                     </div>
                                 </div>
                             </div>
@@ -121,7 +121,7 @@
                                     <div class="card-body">
                                         <h4 class="card-title">PANTALÓN JOGGER CARGO</h4>
                                         <p class="card-text">Precio: $599.00</p>
-                                        <a class="btn btn-warning">Comprar ahora</a>
+                                        <a class="btn btn-warning" href="<?php echo base_url(); ?>/index.php/Controlador/detalleProducto">Comprar ahora</a>
                                     </div>
                                 </div>
                             </div>
@@ -131,7 +131,7 @@
                                     <div class="card-body">
                                         <h4 class="card-title">PANTALÓN FELPA ANCHO</h4>
                                         <p class="card-text">Precio: $699.00</p>
-                                        <a class="btn btn-warning">Comprar ahora</a>
+                                        <a class="btn btn-warning" href="<?php echo base_url(); ?>/index.php/Controlador/detalleProducto">Comprar ahora</a>
                                     </div>
                                 </div>
                             </div>
@@ -141,7 +141,7 @@
                                     <div class="card-body">
                                         <h4 class="card-title">SUDADERA CAPUCHA</h4>
                                         <p class="card-text">Precio: $499.00</p>
-                                        <a class="btn btn-warning">Comprar ahora</a>
+                                        <a class="btn btn-warning" href="<?php echo base_url(); ?>/index.php/Controlador/detalleProducto">Comprar ahora</a>
                                     </div>
                                 </div>
                             </div>
@@ -157,7 +157,7 @@
                                     <div class="card-body">
                                         <h4 class="card-title">CHALECO REVERSIBLE WATER REPELLENT</h4>
                                         <p class="card-text">Precio: $1,299.00</p>
-                                        <a class="btn btn-warning">Comprar ahora</a>
+                                        <a class="btn btn-warning" href="<?php echo base_url(); ?>/index.php/Controlador/detalleProducto">Comprar ahora</a>
                                     </div>
                                 </div>
                             </div>
@@ -167,7 +167,7 @@
                                     <div class="card-body">
                                         <h4 class="card-title">CHALECO REVERSIBLE</h4>
                                         <p class="card-text">Precio: $749.00</p>
-                                        <a class="btn btn-warning">Comprar ahora</a>
+                                        <a class="btn btn-warning" href="<?php echo base_url(); ?>/index.php/Controlador/detalleProducto">Comprar ahora</a>
                                     </div>
                                 </div>
                             </div>
@@ -177,7 +177,7 @@
                                     <div class="card-body">
                                         <h4 class="card-title">VESTIDO PUNTO MIDI</h4>
                                         <p class="card-text">Precio: $799.00</p>
-                                        <a class="btn btn-warning">Comprar ahora</a>
+                                        <a class="btn btn-warning" href="<?php echo base_url(); ?>/index.php/Controlador/detalleProducto">Comprar ahora</a>
                                     </div>
                                 </div>
                             </div>
@@ -216,7 +216,7 @@
                                     <div class="card-body">
                                         <h4 class="card-title">BLAZER VESTIDO LIMITED EDITION</h4>
                                         <p class="card-text">Precio: $2,799.00</p>
-                                        <a class="btn btn-warning">Comprar ahora</a>
+                                        <a class="btn btn-warning" href="<?php echo base_url(); ?>/index.php/Controlador/detalleProducto">Comprar ahora</a>
                                     </div>
                                 </div>
                             </div>
@@ -226,7 +226,7 @@
                                     <div class="card-body">
                                         <h4 class="card-title">ABRIGO LARGO LIMITED EDITION</h4>
                                         <p class="card-text">Precio: $3,299.00</p>
-                                        <a class="btn btn-warning">Comprar ahora</a>
+                                        <a class="btn btn-warning" href="<?php echo base_url(); ?>/index.php/Controlador/detalleProducto">Comprar ahora</a>
                                     </div>
                                 </div>
                             </div>
@@ -236,7 +236,7 @@
                                     <div class="card-body">
                                         <h4 class="card-title">FALDA DRAPEADA TERCIOPELO</h4>
                                         <p class="card-text">Precio: $749.00</p>
-                                        <a class="btn btn-warning">Comprar ahora</a>
+                                        <a class="btn btn-warning" href="<?php echo base_url(); ?>/index.php/Controlador/detalleProducto">Comprar ahora</a>
                                     </div>
                                 </div>
                             </div>
@@ -252,7 +252,7 @@
                                     <div class="card-body">
                                         <h4 class="card-title">VESTIDO MIDI PLISADO</h4>
                                         <p class="card-text">Precio: $1,299.00</p>
-                                        <a class="btn btn-warning">Comprar ahora</a>
+                                        <a class="btn btn-warning" href="<?php echo base_url(); ?>/index.php/Controlador/detalleProducto">Comprar ahora</a>
                                     </div>
                                 </div>
                             </div>
@@ -262,7 +262,7 @@
                                     <div class="card-body">
                                         <h4 class="card-title">ABRIGO CON LANA</h4>
                                         <p class="card-text">Precio: $2,299.00</p>
-                                        <a class="btn btn-warning">Comprar ahora</a>
+                                        <a class="btn btn-warning" href="<?php echo base_url(); ?>/index.php/Controlador/detalleProducto">Comprar ahora</a>
                                     </div>
                                 </div>
                             </div>
@@ -272,7 +272,7 @@
                                     <div class="card-body">
                                         <h4 class="card-title">JERSEY CASHMERE</h4>
                                         <p class="card-text">Precio: $2,799.00</p>
-                                        <a class="btn btn-warning">Comprar ahora</a>
+                                        <a class="btn btn-warning" href="<?php echo base_url(); ?>/index.php/Controlador/detalleProducto">Comprar ahora</a>
                                     </div>
                                 </div>
                             </div>

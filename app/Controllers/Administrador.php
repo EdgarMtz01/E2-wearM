@@ -69,7 +69,8 @@ class Administrador extends BaseController
     	'talla' => $talla,
     	'costo' => $costo,
     	'precio' => $precio,
-    	'stock' => $stock
+    	'stock' => $stock,
+    	//'mensaje' => $mensaje
 		];
 		$variable= new productosModel($db);
 		$variable->insert($data);
@@ -129,3 +130,4 @@ class Administrador extends BaseController
 		return redirect()->to(base_url()."/index.php/Administrador/verProductos");
 	}
 }
+

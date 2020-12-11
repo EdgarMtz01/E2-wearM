@@ -2,8 +2,8 @@
     <div class="d-flex mt-4">
         <!--Inicia barra izquierda-->
         <div class="border-right">
-            <!--Inicia seccion departamento -->
-            <div class="container" id="left-bar">
+            <!--Inicia seccion departamento 
+          <!--  <div class="container" id="left-bar">
                 <div class="container-fluid text-center">
                     <h4 class="text-primary">Departamento:</h4>
                     <a href="#" class="badge badge-secondary">
@@ -24,16 +24,16 @@
                     <a href="#" class="badge badge-secondary">
                         <h6 class="text-white">Calzado para correr</h6>
                     </a>
-                </div>
+                </div> -->
                 <!--Inicia seccion precio -->
-                <div class="container-fluid text-center">
+           <!--     <div class="container-fluid text-center">
                     <h6 class="text-primary">Precio</h6>
                     <a href="#" class="badge badge-secondary">Menos de $350</a>
                     <a href="#" class="badge badge-secondary">$350-$750</a>
                     <a href="#" class="badge badge-secondary">$750-$1500</a>
                     <a href="#" class="badge badge-secondary">$1500-$3000</a>
                     <a href="#" class="badge badge-secondary">Mas de $3000</a>
-                </div>
+                </div> -->
                 <!--Termina seccion precio -->
             </div>
             <!--Termina seccion departamento -->
