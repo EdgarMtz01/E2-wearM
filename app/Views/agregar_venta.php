@@ -27,19 +27,6 @@
                     </div>
                 </div>
 
-                <!-- Ventana emergente  -->
-                <div class="modal fade" id="ventana_productos">
-                    <div class="modal-dialog">
-                        <div class="modal-content">
-                            <div class="modal-header">
-                                <button type="button" class="close" data-dissmiss="modal" area-hidden="true">&times;</button>
-                                <h2 class="modal-title">Agregar productos</h2>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!-- Termina ventana emergente -->
-
                 <!-- Tabla de productos -->
       	    	<table class="table table-bordered table-hover text-center mt-2">
                     <thead>
@@ -72,7 +59,7 @@
                             </td>
                         </tr>
                         <tr>
-                            <td><?php echo $key->; ?></td>
+                            <td></td>
                             <td></td>
                             <td></td>
                             <td></td>

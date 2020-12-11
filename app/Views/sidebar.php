@@ -14,8 +14,8 @@
             </div>
 
             <div class="list-group list-group-flush">
-                <a href="#" class="list-group-item list-group-item-action" id="elementos_barra">
-                    <i class="fa fa-home fa-lg mr-3" aria-hidden="true"></i>Inicio</a>       
+                <!--<a href="#" class="list-group-item list-group-item-action" id="elementos_barra">
+                    <i class="fa fa-home fa-lg mr-3" aria-hidden="true"></i>Inicio</a>-->       
                 <a href="<?php echo base_url(); ?>/index.php/Administrador/verProductos" class="list-group-item list-group-item-action" id="elementos_barra">
                     <i class="fa fa-archive mr-3" aria-hidden="true"></i>Productos</a>
                 <a href="<?php echo base_url(); ?>/index.php/Administrador/verCompras" class="list-group-item list-group-item-action" id="elementos_barra">

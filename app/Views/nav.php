@@ -7,13 +7,13 @@
         <div class="collapse navbar-collapse justify-content-center" id="navbarTogglerDemo01">
             <ul class="navbar-nav">
                 <li class="nav-item">
-                    <a class="nav-link" href="<?php echo base_url(); ?>/index.php/Controlador/productosHombre">Hombre</a>
+                    <a class="nav-link" href="<?php echo base_url(); ?>/index.php/<?php echo $controlador; ?>/productosHombre">Hombre</a>
            </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="<?php echo base_url(); ?>/index.php/Controlador/productosMujer">Mujer</a>
+                    <a class="nav-link" href="<?php echo base_url(); ?>/index.php/<?php echo $controlador; ?>/productosMujer">Mujer</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="<?php echo base_url(); ?>/index.php/Controlador/productosNiño">Niños</a>
+                    <a class="nav-link" href="<?php echo base_url(); ?>/index.php/<?php echo $controlador; ?>/productosNiño">Niños</a>
                 </li>
             </ul>
         </div>

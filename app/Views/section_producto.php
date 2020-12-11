@@ -10,13 +10,22 @@
         $precio = $productos['precio'];
         //$stock = $productos['stock'];
     }
+
+    $link;
+    if($controlador == "Usuario"){
+        $link = "Usuario/carritoCompras";
+    } else{
+        if($controlador == "Controlador"){
+            $link = "Controlador/inicioSesion";
+        }
+    }
 ?>
 
 <!--Inicia seccion principal-->
     <section class="container-fluid mt-4"> 
         <div class="row">
             <div class="col-lg-6 col-md-6 col-sm-5 col-12 d-flex justify-content-center">
-                <img src="<?php echo base_url(); ?>/assets/images/<?php echo $productos['imagen'] ?>" width="80%">
+                <img class="img-fluid" src="<?php echo base_url(); ?>/assets/images/<?php echo $productos['imagen'] ?>" width="80%">
             </div>
             <div class="col-lg-6 col-md-6 col-sm-7 col-12">
                 <h3 id="text-product2"><?php echo $nombre; ?></h3>
@@ -24,7 +33,7 @@
                 <h5>Precio: $<?php echo $precio; ?></h5>
                 <h5>Talla: <?php echo $talla; ?></h5>
                 <h5>Devolución: gratuita para algunos tamaños y colores</h5>
-                <a class="btn btn-warning"><i class="fa fa-shopping-cart mr-3" aria-hidden="true"></i>Agregar al carrito</a>
+                <a href="<?php echo base_url(); ?>/index.php/<?php echo $link; ?>" class="btn btn-warning"><i class="fa fa-shopping-cart mr-3" aria-hidden="true"></i>Agregar al carrito</a>
             </div>
         </div>
     </section>

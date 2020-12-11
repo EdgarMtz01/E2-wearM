@@ -43,7 +43,7 @@
             <div class="col-lg-4 col-md-5 col-sm-12 col-12 d-flex align-items-center justify-content-center mb-4">
                 <div class="botones_pago bg-light text-center">
                     <p>Puedes revisar el pedido antes de proceder</p>
-                    <a href="#" class="btn btn-warning">Continuar</a>
+                    <a href="<?php echo base_url(); ?>/index.php/Usuario/metodoPago" class="btn btn-warning">Continuar</a>
                 </div>
             </div>
         </div>

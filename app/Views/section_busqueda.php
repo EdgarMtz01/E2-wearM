@@ -3,7 +3,7 @@
         <!--Inicia barra izquierda-->
         <div class="border-right">
             <!--Inicia seccion departamento 
-          <!--  <div class="container" id="left-bar">
+           <div class="container" id="left-bar">
                 <div class="container-fluid text-center">
                     <h4 class="text-primary">Departamento:</h4>
                     <a href="#" class="badge badge-secondary">
@@ -83,6 +83,51 @@
                         </div>
                     </div>
                     <!--Fin Tarjeta 3-->
+                    <!--Inicio Tarjeta 4-->
+                    <div class="col-sm">
+                        <div class="container-fluid text-center d-flex justify-content-center mb-3">
+                            <div class="card" style="width: 18rem;">
+                                <img class="card-img-top" src="<?php echo base_url(); ?>/assets/images/prod4.jpg" alt="Card image cap">
+                                <div class="card-body">
+                                    <h5 class="card-title">RockDove</h5>
+                                    <p class="card-text">Pantunflas espuma de memoria </p>
+                                    <p class="card-text">4.7 de 5 estrellas</p>
+                                    <p class="card-text">$485.60</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--Fin Tarjeta 4-->
+                    <!--Inicio Tarjeta 5-->
+                    <div class="col-sm">
+                        <div class="container-fluid text-center d-flex justify-content-center mb-3">
+                            <div class="card" style="width: 18rem;">
+                                <img class="card-img-top" src="<?php echo base_url(); ?>/assets/images/prod5.jpg" alt="Card image cap">
+                                <div class="card-body">
+                                    <h5 class="card-title">Bruno Marc</h5>
+                                    <p class="card-text">Zapatillas de caminar </p>
+                                    <p class="card-text">4.6 de 5 estrellas</p>
+                                    <p class="card-text">$643.87</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--Fin Tarjeta 5-->
+                    <!--Inicio Tarjeta 6-->
+                    <div class="col-sm">
+                        <div class="container-fluid text-center d-flex justify-content-center mb-3">
+                            <div class="card" style="width: 18rem;">
+                                <img class="card-img-top" src="<?php echo base_url(); ?>/assets/images/prod6.jpg" alt="Card image cap">
+                                <div class="card-body">
+                                    <h5 class="card-title">Nortiv 8</h5>
+                                    <p class="card-text">Botas de senderismo</p>
+                                    <p class="card-text">4.3 de 5 estrellas</p>
+                                    <p class="card-text">$999.00</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--Fin Tarjeta 6-->
                 </div>
             </div>
         </div>

@@ -1,3 +1,4 @@
+
  <!-- Inicia Seccion de ofertas-->
     <section>
         <div class="container-fluid text-center">
@@ -23,7 +24,7 @@
                                     <div class="card-body">
                                         <h4 class="card-title">Flexi Jeremy Zapatos de Cordones Brogue </h4>
                                         <p class="card-text">Precio: $815.15 </p>
-                                        <a href="<?php echo base_url(); ?>/index.php/Controlador/detalleProducto?nombre=Flexi Jeremy 92401" class="btn btn-warning" >Comprar ahora</a>
+                                        <a href="<?php echo base_url(); ?>/index.php/<?php echo $controlador; ?>/detalleProducto?nombre=Flexi Jeremy 92401" class="btn btn-warning" >Comprar ahora</a>
                                     </div>
                                 </div>
                             </div>
@@ -33,7 +34,7 @@
                                     <div class="card-body">
                                         <h4 class="card-title">Flexi Botín Casual para Hombre</h4>
                                         <p class="card-text">Precio: $499.50</p>
-                                        <a class="btn btn-warning" href="<?php echo base_url(); ?>/index.php/Controlador/detalleProducto?nombre=Flexi 50805">Comprar ahora</a>
+                                        <a class="btn btn-warning" href="<?php echo base_url(); ?>/index.php/<?php echo $controlador; ?>/detalleProducto?nombre=Flexi 50805">Comprar ahora</a>
                                     </div>
                                 </div>
                             </div>
@@ -43,7 +44,7 @@
                                     <div class="card-body">
                                         <h4 class="card-title">GLOBALWIN Zapatillas de Moda</h4>
                                         <p class="card-text">Precio: $382.44</p>
-                                        <a class="btn btn-warning" href="<?php echo base_url(); ?>/index.php/Controlador/detalleProducto?nombre=GLOBALWIN M16666769">Comprar ahora</a>
+                                        <a class="btn btn-warning" href="<?php echo base_url(); ?>/index.php/<?php echo $controlador; ?>/detalleProducto?nombre=GLOBALWIN M16666769">Comprar ahora</a>
                                     </div>
                                 </div>
                             </div>
@@ -59,7 +60,7 @@
                                     <div class="card-body">
                                         <h4 class="card-title">Bruno Marc Zapatos de Vestir Oxford </h4>
                                         <p class="card-text">Precio: $799.00 </p>
-                                        <a class="btn btn-warning" href="<?php echo base_url(); ?>/index.php/Controlador/detalleProducto?nombre=Bruno Marc">Comprar ahora</a>
+                                        <a class="btn btn-warning" href="<?php echo base_url(); ?>/index.php/<?php echo $controlador; ?>/detalleProducto?nombre=Bruno Marc">Comprar ahora</a>
                                     </div>
                                 </div>
                             </div>
@@ -69,7 +70,7 @@
                                     <div class="card-body">
                                         <h4 class="card-title">Flexi Salamanca Zapatos de Cordones Brogue</h4>
                                         <p class="card-text">Precio: $862.05</p>
-                                        <a class="btn btn-warning" href="<?php echo base_url(); ?>/index.php/Controlador/detalleProducto?nombre=Flexi Salamanca 90701">Comprar ahora</a>
+                                        <a class="btn btn-warning" href="<?php echo base_url(); ?>/index.php/<?php echo $controlador; ?>/detalleProducto?nombre=Flexi Salamanca 90701">Comprar ahora</a>
                                     </div>
                                 </div>
                             </div>
@@ -79,7 +80,7 @@
                                     <div class="card-body">
                                         <h4 class="card-title">Crocs Santa Cruz Mocasines cómodos</h4>
                                         <p class="card-text">Precio: $1,167.20 Antes $1,570.50</p>
-                                        <a class="btn btn-warning" href="<?php echo base_url(); ?>/index.php/Controlador/detalleProducto?nombre=Crocs Santa Cruz">Comprar ahora</a>
+                                        <a class="btn btn-warning" href="<?php echo base_url(); ?>/index.php/<?php echo $controlador; ?>/detalleProducto?nombre=Crocs Santa Cruz">Comprar ahora</a>
                                     </div>
                                 </div>
                             </div>

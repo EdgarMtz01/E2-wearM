@@ -28,7 +28,7 @@
                     <a class="dropdown-toggle" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><img src="<?php echo base_url(); ?>/assets/images/usuario.png" class="header_iconos"></a>
                     <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
                         <a class="dropdown-item" href="<?php echo base_url(); ?>/index.php/Controlador/inicioSesion">Iniciar sesión</a>
-                        <a class="dropdown-item" href="<?php echo base_url(); ?>/index.php/Controlador/inicioSesionPassword">Registrarse</a>
+                        <a class="dropdown-item" href="<?php echo base_url(); ?>/index.php/Controlador/registroUsuario">Registrarse</a>
                     </div>
                 </div>
 

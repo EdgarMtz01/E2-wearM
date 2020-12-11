@@ -4,27 +4,25 @@
 	<div class="container" style="background-color:#ffffff">
 		<!--Titulo del contenedor-->
 		<h1 class="crear"> <strong>Crea tu cuenta</strong></h1>
-		 <?php if(isset($validation)):?>
-        <div class="alert alert-danger"><?= $validation->listErrors() ?></div>
-         <?php endif;?>
-		<form action="#" name="registrar_usuario" method="POST" role= "form" onsubmit="return validacionRC();">
+	
+		<form  name="registrar_usuario" method="POST" role= "form" onsubmit="return validacionRC();" action="<?php echo base_url();?>/index.php/Controlador">
 			<h5 class="nom">Nombre(s)</h5>
-			<input class="nombre" type="text" name="form-control-plaintext" id="nombre_cuenta" value="<?= set_value('nombre') ?>"
+			<input class="nombre" type="text" name="form-control-plaintext" id="nombre_cuenta" value="">
 			<div>
 				<h5 class="ape">Apellidos</h5>
-				<input class="apellido" type="text" name="form-control-plaintext" id="apellido_cuenta" value="<?php echo "apellido"; ?>">
+				<input class="apellido" type="text" name="form-control-plaintext" id="apellido_cuenta" value="">
 				<div>
 					<h5>Correo electrónico</h5>
-					<input class="correo" type="text" name="form-control-plaintext" id="correo_cuenta" value="<?php echo "correo"; ?>">
+					<input class="correo" type="text" name="form-control-plaintext" id="correo_cuenta" value="">
 					<div>
-						<h5>Contraseña</h5>
-						<input class="password" type="password" name="form-control-plaintext" placeholder="mínimo 8 caracteres" id="password_cuenta" value="<?php echo "contrasenia"; ?>">
+						<h5>Contraseña</h5>  
+						<input class="password" type="password" name="form-control-plaintext" placeholder="mínimo 8 caracteres" id="password_cuenta" value="">
 						<div>
 							<h5>Vuelva a escribir su contraseña</h5>
-							<input class="password1" type="password" name="form-control-plaintext" placeholder="mínimo 8 caracteres" id="password1_cuenta" value="<?php echo "confcontrasenia"; ?>">
+							<input class="password1" type="password" name="form-control-plaintext" placeholder="mínimo 8 caracteres" id="password1_cuenta" value="">
 							<div>
 								<!--Botón para crear cuenta-->
-								<button type="submit" class="btn" style="background-color: #f4f188"><strong><h5>Crear cuenta</h5></strong></button>
+								<button type="submit" class="btn" style="background-color: #f4f188" ><strong><h5>Crear cuenta</h5></strong></button>
 							</div>
 						</div>
 					</div>
