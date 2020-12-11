@@ -6,13 +6,6 @@ class Administrador extends BaseController
 {
 	public function verProductos()
 	{
-		/*$db      = \Config\Database::connect();
-		$builder = $db->table('productos');
-		$builder->select('*');
-		$builder->join('categoria','categoria.idCategoria = productos.idCategoria');
-		$variableQuery = $builder->get();
-		$variableIndice['products'] = $variableQuery->getResultArray();*/
-
 		$variable= new productosModel($db);
 		$variableIndice['products'] = $variable->findAll();
 		return view('head').view('sidebar').view('admi_productos',$variableIndice);
