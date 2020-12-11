@@ -15,7 +15,10 @@ class Usuario extends BaseController
 
 	public function detalleProducto()
 	{
-		return view('head').view('headerRegistrado').view('nav').view('section_producto').view('footer');
+		$nombre = $_GET['nombre'];
+		$variable= new productosModel($db);
+		$variableIndice['products'] = $variable-> where('nombre',$nombre)->findAll(); 
+		return view('head').view('headerRegistrado').view('nav').view('section_producto',$variableIndice).view('footer');
 	}
 
 	public function carritoCompras()
