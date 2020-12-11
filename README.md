@@ -1,2 +1,2 @@
-# ProyectoWeb-E2
-Sitio web de la asignatura Programacion Web
+# WearM
+Punto de venta online de ropa y zapatos
